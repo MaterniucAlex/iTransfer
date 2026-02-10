@@ -5114,4 +5114,19 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   background: var(--clr-semi-dark-blue);
 }
 
+/* Start Events Page */
+#content-organized { 
+  margin: 0 !important; 
+  padding: 0 !important; 
+}
+
+@media (min-width: 992px) { 
+  #content-organized { 
+    margin: 0 auto !important;
+    padding: 0 120px !important;
+  }
+}
+
+/* End Events Page */
+
 /*    End dark theme rules  *//*# sourceMappingURL=main-LTR.css.map */
