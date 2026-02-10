@@ -36,6 +36,21 @@
         <!-- main-LTR -->
         <link rel="stylesheet" href="css/main-LTR.css">
         <title> flex-IT   |   service details</title>
+
+        <style>
+        .dark-theme .card {
+            background-color: rgba(255, 255, 255, 0.05); /* Fundal transparent/gri inchis */
+            border: 1px solid rgba(255, 255, 255, 0.1);   /* Chenar subtil */
+            color: #fff;
+        }
+        .dark-theme .card-header .btn-link {
+            color: #fff; /* Text alb pentru titlurile acordeonului */
+            text-decoration: none;
+        }
+        .dark-theme .card-header .btn-link:hover {
+            color: #0d6efd; /* Albastru la hover */
+        }
+    </style>
   </head>
   <body class=" dark-theme "> 
     <!--Start Page Header-->
@@ -108,141 +123,162 @@
     <!--End Page Header-->
     <!-- Start inner Page hero-->
     <section class="d-flex align-items-center page-hero inner-page-hero" id="page-hero">
-      <div class="overlay-photo-image-bg parallax" data-bg-img="assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
-      <div class="overlay-color" data-bg-opacity=".75"></div>
-      <div class="container">
-        <div class="hero-text-area centerd">
-          <h1 class="hero-title wow fadeInUp" data-wow-delay=".2s">Professional Trainings</h1>
-          <nav aria-label="breadcrumb">
-            <ul class="breadcrumb wow fadeInUp" data-wow-delay=".6s">
-              <li class="breadcrumb-item"><a class="breadcrumb-link" href="index.html">home</a></li>
-              <li class="breadcrumb-item active">Cursuri</li>
-            </ul>
-          </nav>
+        <div class="overlay-photo-image-bg parallax" data-bg-img="assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
+        <div class="overlay-color" data-bg-opacity=".75"></div>
+        <div class="container">
+            <div class="hero-text-area centerd">
+                <h1 class="hero-title wow fadeInUp">Technical aspects of Machine Learning and Data Science</h1>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb wow fadeInUp">
+                        <li class="breadcrumb-item"><a class="breadcrumb-link" href="cursuri.html">Training</a></li>
+                        <li class="breadcrumb-item active">ML Technical</li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-      </div>
     </section>
     <!-- End inner Page hero-->
     <!-- Start inner Page hero-->
-    <div class="service-single section-space"> 
+    <div class="service-single section-space">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                
+                <div class="col-12 col-xl-8">
                     <div class="service-content-area">
-                    
-                    <div class="section-heading text-center mb-5">
-                        <h2 class="section-title">Our Courses</h2>
-                        <p class="section-subtitle">Are you looking for a professional training? We propose you some courses, designed by our experts:</p>
-                    </div>
+                        <div class="service-content">
+                            
+                            <div class="part">
+                                <h2 class="service-title">About this course</h2>
+                                <p class="service-text">
+                                    <strong>Specific Skills Acquired:</strong> The course contains general definitions of machine learning tasks and a description of algorithms for their solution. Participants will gain skills in decomposition and classification of machine learning tasks and a general understanding of possible ways to solve them.
+                                </p>
+                                <p class="service-text">
+                                    <strong>General Objectives:</strong> This course is an introductory course in machine learning. The main goal of the course is to provide participants with a general understanding of the problems solved by machine learning methods and basic algorithms for solving them.
+                                </p>
+                            </div>
 
-                    <div class="swiper-container course-slider" style="overflow: hidden; padding-bottom: 50px;">
-                        <div class="swiper-wrapper">
+                            <div class="part">
+                                <h2 class="service-title">Course content</h2>
+                                <div class="faq-accordion" id="courseAccordion">
+                                    
+                                    <div class="card mb-3">
+                                        <div class="card-header" id="headingOne">
+                                            <h5 class="mb-0 faq-title">
+                                                <button class="btn btn-link faq-btn collapsed w-100 text-start" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    ML introduction
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-bs-parent="#courseAccordion">
+                                            <div class="card-body">
+                                                <p class="service-text">General formulation of the machine learning task. Classification of ML tasks.</p>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                        <div class="swiper-slide">
-                            <div class="part p-4" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); border-radius: 15px;">
-                            <h3 class="service-title text-center mb-4">Advanced aspects of Python in Practice</h3>
-                            <div class="row align-items-center">
-                                <div class="col-12 col-lg-7">
-                                <p class="service-text"><strong>General Objectives:</strong> This course is designed for experienced Python developers who want to improve the quality of their code, make it more flexible, reliable and efficient. The course includes two parts, the first of which is devoted to object-oriented principles and patterns, and the second to the profiling and optimization of program code.</p>
-                                <p class="service-text"><strong>Specific Skills Acquired:</strong> Participants will gain experience in object-oriented decomposition and refactoring of code using design patterns, as well as experience in using profiling tools for performance optimization. </p>
-                                <a href="curs-python.html" class="btn-outline mt-3">More Details <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="col-12 col-lg-5">
-                                <div class="info-box p-3" style="background: #1a1a1a; border-radius: 10px; border-left: 4px solid #0d6efd;">
-                                    <ul class="list-unstyled mb-0 text-white">
-                                    <li class="mb-2"><i class="fas fa-user-tie text-primary me-2"></i> Course for industry, software engineers</li>
-                                    <li class="mb-2"><i class="far fa-clock text-primary me-2"></i> Course duration: 3 weeks (18 hours)</li>
-                                    <li class="mb-2"><i class="fas fa-laptop text-primary me-2"></i> Online teaching</li>
-                                    <li class="mb-2"><i class="fas fa-language text-primary me-2"></i> Language: English</li>
-                                    <li class="mb-2"><i class="bi bi-calendar-event text-primary me-2"></i> Course held between 10 - 28 October 2022</li>
-                                    </ul>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
+                                    <div class="card mb-3">
+                                        <div class="card-header" id="headingTwo">
+                                            <h5 class="mb-0 faq-title">
+                                                <button class="btn btn-link faq-btn collapsed w-100 text-start" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Tools and libraries
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#courseAccordion">
+                                            <div class="card-body">
+                                                <ul class="service-text ms-3">
+                                                    <li>Introduction to Python ecosystem</li>
+                                                    <li>numpy</li>
+                                                    <li>pandas</li>
+                                                    <li>matplotlib, seaborn</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                        <div class="swiper-slide">
-                            <div class="part p-4" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); border-radius: 15px;">
-                            <h3 class="service-title text-center mb-4">Technical aspects of Machine Learning and Data Science</h3>
-                            <div class="row align-items-center">
-                                <div class="col-12 col-lg-7">
-                                <p class="service-text"><strong>General Objectives:</strong> This course is an introductory course in machine learning. The main goal of the course is to provide participants with a general understanding of the problems solved by machine learning methods and basic algorithms for solving them. The course has a practical orientation, so all stages of working with this data are accompanied by practical examples.</p>
-                                <p class="service-text"><strong>Specific Skills Acquired:</strong> The course focuses on gaining practical skills in working with machine learning tools and libraries in the Python ecosystem. Participants will gain practical experience in building ML models, starting from the analysis of raw data and ending with the evaluation of the model and the hyperparameter tuning, using both traditional algorithms and neural networks. Among the tools mastered by the participants are the libraries of pandas, matplotlib, sckit-learn, keras, etc.</p>
-                                <a href="curs-ml-aspects.html" class="btn-outline mt-3">More Details <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="col-12 col-lg-5">
-                                <div class="info-box p-3" style="background: #1a1a1a; border-radius: 10px; border-left: 4px solid #0d6efd;">
-                                    <ul class="list-unstyled mb-0 text-white">
-                                    <li class="mb-2"><i class="fas fa-user-tie text-primary me-2"></i> Courses targeted at professionals working in managerial and executive roles, software engineers</li>
-                                    <li class="mb-2"><i class="far fa-clock text-primary me-2"></i> Course duration: 3 weeks (18 hours)</li>
-                                    <li class="mb-2"><i class="fas fa-laptop text-primary me-2"></i>  Online teaching</li>
-                                    <li class="mb-0"><i class="fas fa-language text-primary me-2"></i> Language: English</li>
-                                    <li class="mt-2"><i class="far fa-calendar-alt text-primary me-2"></i> Course held between 19 September - 7 October 2022</li>
-                                    </ul>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
+                                    <div class="card mb-3">
+                                        <div class="card-header" id="headingThree">
+                                            <h5 class="mb-0 faq-title">
+                                                <button class="btn btn-link faq-btn collapsed w-100 text-start" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Machine learning
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#courseAccordion">
+                                            <div class="card-body">
+                                                <ul class="service-text ms-3">
+                                                    <li>sklearn library</li>
+                                                    <li>Nearest neighbors classifiers</li>
+                                                    <li>Decision trees</li>
+                                                    <li>Bayesian classifiers</li>
+                                                    <li>Linear classifiers, SVM</li>
+                                                    <li>Regression algorithms</li>
+                                                    <li>Clustering: KMeans, DBSCAN</li>
+                                                    <li>Neural networks (Keras library)</li>
+                                                    <li>Convolutional neural networks (Keras library)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                        <div class="swiper-slide">
-                            <div class="part p-4" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); border-radius: 15px;">
-                            <h3 class="service-title text-center mb-4">Data Science and Machine Learning - General Vision</h3>
-                            <div class="row align-items-center">
-                                <div class="col-12 col-lg-7">
-                                <p class="service-text"><strong>General Objectives:</strong> This course is an introductory course in machine learning. The main goal of the course is to provide participants with a general understanding of the problems solved by machine learning methods and basic algorithms for solving them.</p>
-                                <p class="service-text"><strong>Specific Skills Acquired:</strong> The course contains general definitions of machine learning tasks and a description of algorithms for their solution. Participants will gain skills in decomposition and classification of machine learning tasks and a general understanding of possible ways to solve them.</p>
-                                <a href="curs-ml-general.html" class="btn-outline mt-3">More Details <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="col-12 col-lg-5">
-                                <div class="info-box p-3" style="background: #1a1a1a; border-radius: 10px; border-left: 4px solid #0d6efd;">
-                                    <ul class="list-unstyled mb-0 text-white">
-                                    <li class="mb-2"><i class="fas fa-user-tie text-primary me-2"></i> Courses targeted at professionals working in managerial and executive roles</li>
-                                    <li class="mb-2"><i class="far fa-clock text-primary me-2"></i> Course duration: 2 weeks (8 hours)</li>
-                                    <li class="mb-2"><i class="fas fa-laptop text-primary me-2"></i> Online or teaching center</li>
-                                    <li class="mb-0"><i class="fas fa-language text-primary me-2"></i> Language: English</li>
-                                    <li class="mt-2"><i class="far fa-calendar-alt text-primary me-2"></i> Course held between 18-30 July 2022</li>
-                                    </ul>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
+                                    <div class="card mb-3">
+                                        <div class="card-header" id="headingFour">
+                                            <h5 class="mb-0 faq-title">
+                                                <button class="btn btn-link faq-btn collapsed w-100 text-start" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                    Big Data tools
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#courseAccordion">
+                                            <div class="card-body">
+                                                <ul class="service-text ms-3">
+                                                    <li>Hadoop architecture</li>
+                                                    <li>PySpark</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                        <div class="swiper-slide">
-                            <div class="part p-4" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); border-radius: 15px;">
-                            <h3 class="service-title text-center mb-4">Data Science and Machine Learning - Course in detail</h3>
-                            <div class="row align-items-center">
-                                <div class="col-12 col-lg-7">
-                                <p class="service-text"><strong>General Objectives:</strong> This course is an introductory course in machine learning. The main goal of the course is to provide participants with a general understanding of the problems solved by machine learning methods and basic algorithms for solving them. The course has a practical orientation, so all stages of working with this data are accompanied by practical examples.</p>
-                                <p class="service-text"><strong>Specific Skills Acquired:</strong> The course focuses on gaining practical skills in working with machine learning tools and libraries in the Python ecosystem. Participants will gain practical experience in building ML models, starting from the analysis of raw data and ending with the evaluation of the model and the hyperparameter tuning, using both traditional algorithms and neural networks. Among the tools mastered by the participants are the libraries of pandas, matplotlib, sckit-learn, keras, etc.</p>
-                                <a href="curs-ml-detailed.html" class="btn-outline mt-3">More Details <i class="bi bi-arrow-right"></i></a>
-                                </div>
-                                <div class="col-12 col-lg-5">
-                                <div class="info-box p-3" style="background: #1a1a1a; border-radius: 10px; border-left: 4px solid #0d6efd;">
-                                    <ul class="list-unstyled mb-0 text-white">
-                                    <li class="mb-2"><i class="fas fa-user-tie text-primary me-2"></i> Course for industry, students</li>
-                                    <li class="mb-2"><i class="far fa-clock text-primary me-2"></i> Course duration: 7 weeks (28 hours)</li>
-                                    <li class="mb-2"><i class="fas fa-laptop text-primary me-2"></i> Online teaching</li>
-                                    <li class="mb-0"><i class="fas fa-language text-primary me-2"></i> Language: English</li>
-                                    <li class="mt-2"><i class="far fa-calendar-alt text-primary me-2"></i> Course held between 18 May - 30 June 2022</li>
-                                    </ul>
-                                </div>
                                 </div>
                             </div>
                             </div>
-                        </div>
-
-                        </div>
-                        
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        
-                    </div>
                     </div>
                 </div>
+
+                <div class="col-12 col-xl-4">
+                    <div class="service-sidebar">
+                        <div class="sidebar-pane" style="background: rgba(255, 255, 255, 0.05); border-radius: 10px; padding: 20px; border: 1px solid rgba(255,255,255,0.1);">
+                            <h2 class="sidebar-title">Course Details</h2>
+                            <ul class="list">
+                                <li class="list-item">
+                                    <i class="fas fa-user-tie font-icon"></i>
+                                    <span class="ms-2">Courses targeted at professionals working in managerial and executive roles, software engineers</strong></span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-clock font-icon"></i>
+                                    <span class="ms-2">Course duration: 3 weeks (18 hours)</strong></span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-calendar-alt font-icon"></i>
+                                    <span class="ms-2">Course held between 19 September – 7 October 2022</strong></span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-euro-sign font-icon"></i>
+                                    <span class="ms-2">Price: 250 EUR</strong></span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-language font-icon"></i>
+                                    <span class="ms-2">Language: English </strong></span>
+                                </li>
+                                <li class="list-item">
+                                    <i class="fas fa-laptop font-icon"></i>
+                                    <span class="ms-2">Online teaching</strong></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -417,9 +453,6 @@
         
         <!--     main     -->
         <script src="js/main.js"></script>
-
-        <!--     page scripts     -->
-        <script src="js/scripts/cursuri.js"></script>
 
   </body>
 </html>
