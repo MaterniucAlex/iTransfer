@@ -5127,6 +5127,18 @@ body.dark-theme .about .stats-counter.stats-cards .stat-box {
   }
 }
 
+#content-attendance { 
+  margin: 0 !important; 
+  padding: 0 !important; 
+}
+
+@media (min-width: 992px) { 
+  #content-attendance { 
+    margin: 0 auto !important;
+    padding: 0 120px !important;
+  }
+}
+
 /* End Events Page */
 
 /*    End dark theme rules  *//*# sourceMappingURL=main-LTR.css.map */
