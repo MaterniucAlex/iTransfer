@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- fav icon -->
+        <link rel="icon" href="assets/images/fav-icon/iTransfer-fav-icon.png">
+        
+        <!-- bootstarp -->
+        <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+        
+        <!-- animate.css file -->
+        <link rel="stylesheet" href="css/vendors/animate.css">
+        
+        <!-- Swiper -->
+        <link rel="stylesheet" href="css/vendors/swiper-bundle.min.css">
+        
+        <!-- flaticon -->
+        <link rel="stylesheet" href="css/vendors/flaticon/flaticon.css">
+        
+        <!-- fontAwesome -->
+        <link rel="stylesheet" href="css/vendors/all.min.css">
+        
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css">
+        
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="css/vendors/jquery.fancybox.min.css">
+        
+        <!-- fonts site preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <!-- fonts site preconnect -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <!-- Font Family -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap">
+        
+        <!-- main-LTR -->
+        <link rel="stylesheet" href="css/main-LTR.css">
+        <title>Events - iTransfer</title>
+    <title>Document</title>
+</head>
+<body>
+    <!--Start Page Header-->
+    <header class=" page-header   header-basic" id="page-header">
+      <div class="header-search-box">
+        <div class="close-search"></div>
+        <form class="nav-search search-form" role="search" method="get" action="#">
+          <div class="search-wrapper"> 
+            <label class="search-lbl">Search for:</label>
+            <input class="search-input" type="search" placeholder="Search..." name="searchInput" autofocus="autofocus"/>
+            <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <nav class="menu-navbar">
+          <div class="header-logo"><a class="logo-link" href="#"><img class="logo-img light-logo" loading="lazy" src="assets/images/logo/iTransfer-logo-big-size-white-dots.png" alt="logo"/><img class="logo-img  dark-logo" loading="lazy" src="assets/images/logo/iTransfer-logo-big-size-white-dots.png" alt="logo"/></a></div>
+          <div class="links menu-wrapper ">
+            <ul class="list-js links-list">
+              <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="./">Home</a></li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">About<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="mission.html">Mission</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="team.html">Team</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="collaboration.html">Collaboration</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Academy<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="university-consortium.html">University consortium</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="academic-expertise.html">Academic expertise</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="interdisciplinarity.html">Interdisciplinarity</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Activities and services<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="information.html">Information</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="events.html">Events</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="cursuri.html">Cursuri</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="funding-opportunities.html">Funding Oportunities</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="entrepreneurship.html">Entrepreneurship</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Results<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="products.html">Products</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="prototypes.html">Prototypes</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="knowledge-transfer.html">Knowledge transfer</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="projects.html">Projects</a></li>
+                </ul>
+              </li>
+              <li class="menu-item"><a class="menu-link  " href="contact-us.html">contact us </a></li>
+            </ul>
+          </div>
+          <div class="controls-box">
+            <!--Menu Toggler button-->
+            <div class="control  menu-toggler"><span></span><span></span><span></span></div>
+            <!--search Icon button-->
+            <div class="control header-search-btn"><i class="bi bi-search icon"></i></div>
+            <!--Dark/Light mode button-->
+            <div class="mode-switcher ">
+              <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+              <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+            </div>
+            <!--mini shoping cart-->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--End Page Header-->
+
+    <!-- Start inner page Hero -->
+    <section class="d-flex align-items-center page-hero inner-page-hero" id="page-hero">
+      <div class="overlay-photo-image-bg parallax" data-bg-img="assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
+      <div class="overlay-color" data-bg-opacity=".75"></div>
+      <div class="container">
+        <div class="hero-text-area centerd">
+            <h1 class="hero-title wow fadeInUp" data-wow-delay=".2s">iTransfer events</h1>
+            <div class="sec-heading centered" style="margin-bottom: 3rem;">
+                <div class="content-area">
+                    <button id="tab-btn-organized" class="btn-solid btn-medium" onclick="switchEvents('organized')">
+                        Organized events
+                    </button>
+
+                    <button id="tab-btn-attendance" class="btn-outline btn-medium" onclick="switchEvents('attendance')" style="margin-left: 15px;">
+                        Attendance at other events
+                    </button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- End inner page Hero -->
+
+    <!-- Start inner page Hero -->
+    <div id="content-organized" style="display: block;">
+        <div class="sec-heading centered">
+            <h3 class="title" style="font-size: 2rem;">Previous events</h3>
+        </div>
+
+    <div class="services-boxed past-events-holder">
+        <div class="services-row">
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">10-13</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2023</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Spring School</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY OF IASI
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The Faculty of Computer Science together with iTransfer Technology Transfer Center and Orange Romania, organizes the Spring School for students on topics such as: IoT, Network Communication Architectures, Virtualization Technologies, 5G Networks and their capabilities, Cyber Security. The Spring School activities are scheduled according to the program. The program enables the students to put into practice the theoretical concepts learned at the Faculty, acquiring, at the same time, technical skills, team-working abilities and improving their communication skills in a professional working environment.
+                    </p>
+
+                    <div>
+                        <img src="assets\images\events-logos\spring_school_logo.png" alt="Spring School Logo" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/spring-school/" class="read-more" target="_blank"">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">03</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2023</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">The Significance of Networking for Career Advancement</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        ROOM C308, BUILDING C, FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The lecture given by Dr. Dorina Roșca deepened the critical role that networking plays in the development of a successful professional career. The presentation focused on the advantages of networking, techniques for creating a valuable professional network, and ways to make the most of networking opportunities. Dr. Dorina Roșca is a researcher and president of the Institut Européen d’Etudes du Développement (IEED), as well as an associate researcher at Ladyss, UMR 7533 CNRS. He is co-coordinator of the Hespri Project, a Horizon Europe personnel exchange program coordinated by UAIC.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;"> 
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">16</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2023</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Open Science, Open Data and Open Access: a focus on research for EU project</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        ROOM C413, BUILDING C, FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY OF IASI
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The lecture given by Dr. Valentina Goglio, assistant professor of Economic Sociology, University of Turin (Italy), provided an overview of the concept and the different terms that make up the Open Science ecosystem and focused on the different stages in which the principles of Open Science can be included in the research design. The broad concept of Open Science is gaining momentum in recent years, however its origin is rooted in movements that spread decades ago in the field of computer science (the open software and open source movement) or education (the open education movement). Open Science became now a keyword as institutional funders, such as the European Commission, require compliance with at least some of its basic principles for any research project submitted, e.g. in the framework of the Horizon Europe program. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">11</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2023</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Round table: Synergies between the industry and  the academic environment</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FERDINAND HALL, ALEXANDRU IOAN CUZA UNIVERSITY OF IASI
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The event aims to bring together leaders from both industry and academia to discuss and explore opportunities for collaboration and innovation, an event carried out within the project Supporting competitiveness in research-development and innovation through the development of the institutional capacity of the Alexandru Ioan Cuza University  from Iasi . This event will provide the opportunity to exchange ideas and best practices, in order to identify solutions to facilitate technological transfer. With a diverse range of experts from various fields, the Round Table will stimulate new partnerships and inspire future collaboration.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\it_companies_logo.png" alt="IT COMPANIES LOGO" style="max-height: 60px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">11</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2023</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Stagii pe Bune</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        “MIHAI EMINESCU” HALL, BUILDING A OF ALEXANDRU IOAN CUZA UNIVERSITY
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                       The national internship program Stagii pe bune proposes the placement of IT&C profile students in summer internships in IT&C companies. The internship program is in its eighteenth edition and is the official internship program of the most important IT&C educational centers in Romania: Iași, Bucharest.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\stagii_pe_bune_logo.png" alt="STAGII PE BUNE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/stagii-de-practica/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">11-15</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2022</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Spring School</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY | ONLINE EDITION
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The Faculty of Computer Science and Orange, through the Orange Educational Program, organizes the Spring School for students on topics such as: IoT, Network Communication Architectures, Virtualization Technologies, 5G Networks and their capabilities, Cyber Security. The Spring School activities are scheduled according to the program. The program enables the students to put into practice the theoretical concepts learned at the Faculty, acquiring, at the same time, technical skills, team-working abilities and improving their communication skills in a professional working environment.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\spring_school_logo_2.png" alt="SPRING SCHOOL LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/spring-school/old/2022/" target="_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">05</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2022</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Round table: Promoting research results through technology transfer</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        ITRANSFER TECHNOLOGY TRANSFER CENTER | ONLINE 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        During this event, the service offer of the iTransfer Technology Transfer Center was presented and the aspects of interest regarding technology transfer in the field of ICT, space and security were discussed with representatives of the business environment. The event was organized within the framework of the institutional development project – RDI excellence financing project (PDI-PFE), with the title Supporting competitiveness in research-development and innovation through the development of the institutional capacity of the “Alexandru Ioan Cuza” University in Iași.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\it_companies_logo.png" alt="IT COMPANIES LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://www.uaic.ro/masa-rotunda-promovarea-rezultatelor-cercetarii-prin-transfer-tehnologic/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">05</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2022</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Stagii pe Bune</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY | ONLINE EDITION
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                       The national internship program Stagii pe bune proposes the placement of IT&C profile students in summer internships in IT&C companies. The internship program is in its eighteenth edition and is the official internship program of the most important IT&C educational centers in Romania: Iași, Bucharest.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\stagii_pe_bune_logo.png" alt="STAGII PE BUNE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/stagii-de-practica/EditiiAnterioare/2022/index.php" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">05-09</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2021</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Spring School</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY | ONLINE EDITION
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      The program allows students to put into practice the theoretical concepts learned in college, while acquiring technical skills, teamwork skills and improving their communication skills in a professional work environment. This program is implemented through the Orange Educational Program, in collaboration with the Orange company. This edition was organized in collaboration with the Technical University „Gh. Asachi “.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\spring_school_logo_2.png" alt="SPRING SCHOOL LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/spring-school/old/2021/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">06</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2021</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Stagii pe Bune</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY | ONLINE EDITION
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The national internship program Stagii pe bune proposes the placement of IT&C profile students in summer internships in IT&C companies. The internship program is in its eighteenth edition and is the official internship program of the most important IT&C educational centers in Romania: Iași, Bucharest.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\stagii_pe_bune_logo.png" alt="STAGII PE BUNE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/stagii-de-practica/EditiiAnterioare/2021/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">08-09</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2021</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Spring School??? TODO</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY | ONLINE EDITION
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      The program allows students to put into practice the theoretical concepts learned in college, while acquiring technical skills, teamwork skills and improving their communication skills in a professional work environment. This program is implemented through the Orange Educational Program, in collaboration with the Orange company. This edition was organized in collaboration with the Technical University „Gh. Asachi “.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="images/spring_school_logo.png" alt="SPRING SCHOOL LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="#" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">07</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2020</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Stagii pe Bune</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        “MIHAI EMINESCU” HALL, BUILDING A OF ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      The event brings together academia and industry to identify opportunities for collaboration in internship projects, to identify students who can contribute to the development of various software systems. This edition managed to gather a number of over 500 participants.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\stagii_pe_bune_logo_2.png" alt="STAGII PE BUNE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/stagii-de-practica/EditiiAnterioare/2020/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">08-12</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2019</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Spring School</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      The program allows students to put into practice the theoretical concepts learned in college, while acquiring technical skills, teamwork skills and improving their communication skills in a professional work environment. This program is implemented through the Orange Educational Program, in collaboration with the Orange company.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\spring_school_logo_2.png" alt="SPRING SCHOOL LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/spring-school/old/2019/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">03</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2019</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Iasi Digital Council</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                       FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      The main topic of this meeting was to explore the trajectory and impact of digital development of Iasi and facilitate the involvement of local actors (for example, researchers in academia) in implementing the strategy of digital transformation of the city. The meeting was attended by IT&C industry specialists.
+                    </p> 
+
+                    <a href="https://iasismartcity.ro/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">02</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2019</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Stagii pe Bune</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        “MIHAI EMINESCU” HALL, BUILDING A OF ALEXANDRU IOAN CUZA UNIVERSITY
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      The national internship program, Stagii pe bune, aims to place IT&C students in summer internships in various companies in the IT&C industry.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\stagii_pe_bune_logo_3.png" alt="STAGII PE BUNE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/stagii-de-practica/EditiiAnterioare/2019/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">20</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">December</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2019</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Event to promote the use of provate funds in academia</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      The event brings together academia and industry to identify opportunities for collaboration on both sides. During this event, the results of the close collaboration between the two parties were presented, materialized by physical results (eg renovation of an amphitheater of the Faculty of Informatics in Iasi – Cegeka, Centric, Codeless, CRF Health, GoDaddy, Sevio, Levi9 and XWiki) together with collaborations at the level of technology transfer.
+                    </p>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">13-14</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">December</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">BringITon! 2018</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        BUILDING A OF ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      The fourth edition of the “BringITon!” Workshop aimed to establish and consolidate partnerships between the Romanian IT university environment, investors and companies in the field.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\bringiton_logo.png" alt="BRINGITON LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="http://bringiton.info.uaic.ro/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>  
+            
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">10</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">May</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Innovation Labs – Demo Day</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        LIBRARY OF THE FACULTY OF COMPUTER SCIENCE IASI
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                      Innovation Labs offers a mentoring program in which young IT professionals are assisted by industry experts to turn their idea into a Minimum Viable Product.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\inovative_labs_logo.png" alt="INNOVATION LABS LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://www.facebook.com/events/1236936186436397/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>     
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">03</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Stagii pe Bune</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        “MIHAI EMINESCU” HALL, ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The national internship program, Stagii pe bune aims to place IT&C students in summer internships in various companies in the IT&C industry.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\stagii_pe_bune_logo_4.png" alt="STAGII PE BUNE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/stagii-de-practica/EditiiAnterioare/2018/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>  
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">10</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">October</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2017</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">STARTUP EUROPE COMES TO UNIVERSITIES</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        SENATE HALL, BUILDING A OF  ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                     This academic event is part of the SEC2U: “an initiative that shows the commitment of European universities to create a strong culture of entrepreneurship and innovation, which is spreading in the academic community”. 
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\startup_europe_logo.png" alt="STARTUP EUROPE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://itc2fii.info.uaic.ro/events/index.html" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">29</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">September</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2017</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Event to promote the use of provate funds in academia</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The event brings together academia and industry to identify opportunities for collaboration on both sides. During this event, the results of the close collaboration between the two parties were presented, materialized in the renovation of the seven laboratories of the Faculty of Informatics in Iași. The companies that financed this activity are: Amazon, AQUASoft, Bitdefender, Centric, Continental, Gemini CAD Systems, Levi9.
+                    </p>
+                </div>
+            </div> 
+            
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">05</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">May</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2017</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">iTransfer First Look</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        FACULTY OF COMPUTER SCIENCE, ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                    Official launch of the iTransfer project attended by industry guests.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\logo\iTransfer-logo-big-size-white-dots.png" alt="iTransfer LOGO" style="max-height: 60px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">18</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2017</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Stagii pe Bune</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        “MIHAI EMINESCU” HALL, ALEXANDRU IOAN CUZA UNIVERSITY
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                        The national internship program, Stagii pe bune aims to place IT&C students in summer internships in various companies in the IT&C industry.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\stagii_pe_bune_logo_5.png" alt="STAGII PE BUNE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://events.info.uaic.ro/stagii-de-practica/EditiiAnterioare/2017/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">18-19</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">November</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2016</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">BringITon! 2016</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        SENATE HALL, BUILDING A OF  ALEXANDRU IOAN CUZA UNIVERSITY
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                       Workshop to promote and capitalize on the interaction between university computer research and the business environment.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\bringiton_logo.png" alt="BRNGITON LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="http://bringiton.info.uaic.ro/2016/" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                    <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">20</div>
+                    <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">October</div>
+                    <div style="font-size: 1.3rem; font-weight: 600;">2016</div>
+                </div>
+
+                <div style="padding: 25px 25px 25px 0; flex: 1;">
+                    <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">STARTUP EUROPE COMES TO UNIVERSITIES</h4>
+                    
+                    <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                        SENATE HALL, BUILDING A OF  ALEXANDRU IOAN CUZA UNIVERSITY 
+                    </div>
+
+                    <p class="service-text" style="margin-bottom: 1rem;">
+                       This academic event is part of the SEC2U: “an initiative that shows the commitment of European universities to create a strong culture of entrepreneurship and innovation, which is spreading in the academic community”.
+                    </p>
+
+                    <div style="margin-bottom: 1rem;">
+                        <img src="assets\images\events-logos\startup_europe_logo.png" alt="STARTUP EUROPE LOGO" style="max-height: 60px;">
+                    </div>
+
+                    <a href="https://itc2fii.info.uaic.ro/events/old/2016/index.html" target = "_blank" class="read-more">
+                        Event page <span class="icon" style="margin-left: 5px;">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End inner page Hero -->
+
+    <!-- Start inner page Hero -->
+    <div id="content-attendance" style="display: none;">
+        <div class="services-boxed past-events-holder">
+            <div class="services-row" styles = "margin: 20px;">
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">29</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">October</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2020</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Collaborative solutions for the community</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            THE GREAT HALL OF THE IASI TOWN HALL
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                            Collaborative Solutions for the Community is an initiative of the Civic Association, through which the people of Iași can decide the city’s priorities in 7 areas of development. The actors involved in this initiative are represented by the executive team, experts from various fields, mentoring organizations, multidisciplinary teams, partners and an advisory board.
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\solutii_colaborative_logo.png" alt="Solutii Colaborative Logo" style="max-height: 60px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">10</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">June</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2019</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Smart City 2.0 Caravan</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            “VASILE POGOR” HALL OF THE IASI TOWN HALL
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                           The largest program to promote the Smart City industry in Romania. The concept of the program aims at involving in dialogue all relevant actors: public administrations, the private sector, universities, civil society, in search of the best solutions for the development of creative-intelligent communities.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">21</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">May</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2019</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">PIN Awards Gala</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            UNIREA HOTEL, CUZA CONFERENCE HALL
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                            The PIN Gala is an event created by the IT industry in the area of ​​Moldova, which brings together the most representative IT companies. The event has the role of disseminating the best results obtained during the previous year by the industry and the academic environment in collaboration with it.
+                        </p>
+
+                        <a href="https://pinawards.ro/" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">22</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2019</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">“Iaşi, o putere digitală în creştere, bazată pe abilităţi şi antreprenoriat” Conference</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            THE GREAT HALL OF THE IASI TOWN HALL
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                            The event is addressed to representatives of the private sector, academia and civil society involved in digital development projects. The conference aims to create a structured and applied dialogue framework, to explore the trajectory and impact of the digital development of Iasi Municipality and to facilitate the involvement of local actors in the implementation of the city’s digital transformation strategy.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">18-19</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">February</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2019</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">eGovernment Conferencety</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            THE PALACE OF CULTURE, IASI
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                           It is the first of the 12 high-level meetings that will be held in Iasi during the Romanian presidency of the Council of the European Union. The Palace of Culture brought together over a hundred experts in the field of e-government (digital) from 13 countries, both EU members and outside the EU.
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\romania_2019_logo.png" alt="Romania 2019 Logo" style="max-height: 60px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">06</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">November</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">The Round Table</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            SENAT HALL OF “ALEXANDRU IOAN CUZA” UNIVERSITY OF IASI
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                          The aim of this meeting was to identify ways of collaboration between academia and business for the continuity of technology transfer and the exploitation of entrepreneurial opportunities.
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\uaic_logo.png" alt="UAIC Logo" style="max-height: 60px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">26</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">October</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">IdeaJAM Iasi powered by Innovation Labs</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            FACULTY OF COMPUTER SCIENCE, “ALEXANDRU IOAN CUZA” UNIVERSITY
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                          Innovation Labs invites young professionals to explore the potential of technology to solve real problems for real people – by developing a minimum viable product. The program partners open an arena for participants to experience dedicated IT & C solutions and future infrastructures. 
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\idea_jam_logo.png" alt="Idea Jam Logo" style="max-height: 60px;">
+                        </div>
+
+                        <a href="https://www.innovationlabs.ro/" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">25</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">PIN Gala</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            GRAND HOTEL TRAIAN, IASI
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                          GalaPIN is an event created by the IT industry in Moldova that brings together the most representative IT companies. The event has the role of disseminating the best results obtained during the previous year by the industry and the academic environment in collaboration with it.
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\pin_gala_logo.png" alt="PIN Gala Logo" style="max-height: 60px;">
+                        </div>
+                        
+                        <a href="https://pinawards.ro/" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">24</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">April</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">The WITchIS Conference</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            WATER TOWER OF “ALEXANDRU IOAN CUZA” UNIVERSITY OF IASI
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                            In order to ensure the balance of human resources of different genders, the members of the PrivateSky team also make an effort to support women in IT. WITchIS aims to bring together Women in Information Technology in Iasi and provide them with an opportunity to interact, share information and experiences, and encourage women to pursue careers in technology research. 
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\witchis_logo.png" alt="WITchIS Logo" style="max-height: 60px;">
+                        </div>
+
+                        <a href="https://www.facebook.com/events/218593978892439/?active_tab=about" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">22</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Orange Fab Kick-Off in Iasi</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            THE GRAPE
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                            Orange Fab and The Grape have teamed up to invite ambitious entrepreneurs to present their ideas and products. A group of industry experts and representatives of the local community discussed the opportunities that Iasi has in the field of technology.
+                        </p>
+
+                        <a href="https://www.eventbrite.com/e/orange-fab-kick-off-in-iasi-tickets-44184864118?fbclid=IwAR2f5cPdYH0apUlckP_or2wkrslx63d4Er0RQr_FlHIvu_hRx4r9jtqyDFo" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">11</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">January</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2018</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">IdeaJAM Iasi powered by Innovation Labs</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            FACULTY OF COMPUTER SCIENCE, “ALEXANDRU IOAN CUZA” UNIVERSITY OF IASI
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                           Innovation Labs invites young professionals to explore the potential of technology to solve real problems for real people – by developing a minimum viable product. The program partners open an arena for participants to experience dedicated IT & C solutions and future infrastructures.
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\idea_jam_logo.png" alt="Idea Jam Logo" style="max-height: 60px;">
+                        </div>
+
+                        <a href="https://www.innovationlabs.ro/" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">17</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">November</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2017</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">Innovation Labs</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            FACULTY OF AUTOMATIC CONTROL AND COMPUTER ENGINEERING
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                          Innovation Labs is a pre-accelerator for young technology founders and startups. The program is aimed at students and graduates of technical universities and in the fields of communication, business and creation for the 3-month mentoring adventure of teamwork, intensive prototype development and mentoring, exploring the growing ecosystem in Romania.
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\inovation_labs_logo.png" alt="Inovatives Labs Logo" style="max-height: 60px;">
+                        </div>
+
+                        <a href="https://www.innovationlabs.ro/" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">12-13</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">May</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2017</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">CODECAMP</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            INTERNATIONAL HOTEL, IASI
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                          Codecamp targets and brings together people from all IT disciplines and who have reached all career levels: from enthusiastic students and juniors to the most experienced and wise senior and expert participants.
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\codecamp_logo.png" alt="Code Camp Logo" style="max-height: 60px;">
+                        </div>
+
+                        <a href="https://archive1.codecamp.ro/events/20170512-Iasi/" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;"> 
+                    <div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
+                        <div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">30</div>
+                        <div style="font-size: 1.3rem; font-weight: 600; text-transform: uppercase;">March</div>
+                        <div style="font-size: 1.3rem; font-weight: 600;">2017</div>
+                    </div>
+
+                    <div style="padding: 25px 25px 25px 0; flex: 1;">
+                        <h4 class="service-title" style="margin-bottom: 0.5rem; color: var(--clr-white);">The PIN Gala</h4>
+                        
+                        <div style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: gray; margin-bottom: 1rem;">
+                            UNIREA HOTEL, IASI
+                        </div>
+
+                        <p class="service-text" style="margin-bottom: 1rem;">
+                            The event aims to celebrate the development of the industry at the regional level and highlight the positive impact on the community in which it manifests itself.
+                        </p>
+
+                        <div style="margin-bottom: 1rem;">
+                            <img src="assets\images\events-logos\pin_gala_logo_2.png" alt="PIN Gala Logo" style="max-height: 60px;">
+                        </div>
+
+                        <a href="https://pinawards.ro/" target = "_blank" class="read-more">
+                            Event page <span class="icon" style="margin-left: 5px;">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- End inner page Hero -->
+
+    <!-- Start page-footer Section-->
+    <footer class="page-footer dark-color-footer" id="page-footer">
+      <div class="overlay-photo-image-bg" data-bg-img="assets/images/sections-bg-images/footer-bg-1.jpg" data-bg-opacity=".25"></div>
+      <div class="container">
+        <div class="row footer-cols">
+          <div class="col-12 col-md-8 col-lg-4  footer-col "><img class="img-fluid footer-logo" loading="lazy" src="assets/images/logo/iTransfer-logo-big-size-white-dots.png" alt="logo"/>
+            <div class="footer-col-content-wrapper">        
+              <p class="footer-text-about-us "> The iTransfer mission is to stimulate innovation and technology transfer in order to capitalize on research results by introducing them into the economic circuit in the form of innovative products and services.   </p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2  footer-col ">
+            <h2 class=" footer-col-title    ">useful links</h2>
+            <div class="footer-col-content-wrapper">
+              <ul class="footer-menu ">
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="http://web.facebook.com/cttitransfer/">Facebook</a> </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="http://www.youtube.com/channel/UC0jNmn-WvL0bLqUXUsrhGhw">Youtube</a> </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="http://www.linkedin.com/company/centru-de-transfer-tehnologic-itransfer">linkedIn</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 footer-col ">
+		  <!-- <h2 class=" footer-col-title    ">Resources</h2>
+            <div class="footer-col-content-wrapper">
+              <ul class="footer-menu">
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">support</a>
+                </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">dashboard</a>
+                </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">drivers</a>
+                </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="#0">projects</a>
+                </li>
+              </ul>
+	    </div>
+		  -->
+          </div>
+          <div class="col-12     col-lg-4 footer-col ">
+            <h2 class=" footer-col-title">contact information</h2>
+            <div class="footer-col-content-wrapper">       
+              <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" href="mailto:itransferspace@gmail.com">itransferspace@gmail.com</a></div>
+              <div class="contact-info-card">
+                <div class="social-icons">
+                  <div class="sc-wrapper dir-row sc-size-32">
+                    <ul class="sc-list">
+                      <li class="sc-item " title="Facebook"><a class="sc-link" href="https://www.facebook.com/cttitransfer/?_rdc=1&_rdr" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                      <li class="sc-item " title="youtube"><a class="sc-link" href="https://www.youtube.com/@adsfii6229/videos" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights ">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-start">
+              <p class="creadits"> 2017 - 2024 © iTransfer </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  page-footer Section-->
+    <!-- Start loading-screen Component-->
+    <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div>
+    <!-- End loading-screen Component-->
+    <!-- Start back-to-top Button-->
+    <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i>
+    </div>
+    <!-- End back-to-top Button-->
+
+        <!--     JQuery     -->
+        <script src="js/vendors/jquery-3.6.1.min.js"></script>
+        
+        <!--     appear     -->
+        <script src="js/vendors/appear.min.js"></script>
+        
+        <!--     bootstrap     -->
+        <script src="js/vendors/bootstrap.bundle.min.js"></script>
+        
+        <!--     countTo     -->
+        <script src="js/vendors/jquery.countTo.js"></script>
+        
+        <!--     wow     -->
+        <script src="js/vendors/wow.min.js"></script>
+        
+        <!--     swiper     -->
+        <script src="js/vendors/swiper-bundle.min.js"></script>
+        
+        <!--     particles     -->
+        <script src="js/vendors/particles.min.js"></script>
+        
+        <!--     Vanilla-tilt     -->
+        <script src="js/vendors/vanilla-tilt.min.js"></script>
+        
+        <!--     isotope     -->
+        <script src="js/vendors/isotope-min.js"></script>
+        
+        <!--     fancybox     -->
+        <script src="js/vendors/jquery.fancybox.min.js"></script>
+        
+        <!--     main     -->
+        <script src="js/main.js"></script>
+
+        <!--     page scripts     -->
+        <script src="js/scripts/events.js"></script>
+</body>
+</html>
