@@ -122,11 +122,11 @@
 					<h1 class="hero-title wow fadeInUp" data-wow-delay=".2s">iTransfer events</h1>
 					<div class="sec-heading centered" style="margin-bottom: 3rem;">
 						<div class="content-area">
-							<button id="tab-btn-organized" class="btn-solid btn-medium" onclick="switchEvents('organized')">
+							<button id="tab-btn-organized" class="btn-solid btn-medium" onclick="switchEvents('organized'); setTimeout(function(){ document.querySelector('#content-organized .portfolio-btn[data-filter=\'*\']').click(); window.dispatchEvent(new Event('resize')); }, 150);">
 								Organized events
 							</button>
 
-							<button id="tab-btn-attendance" class="btn-outline btn-medium" onclick="switchEvents('attendance')" style="margin-left: 15px;">
+							<button id="tab-btn-attendance" class="btn-outline btn-medium" onclick="switchEvents('attendance'); setTimeout(function(){ document.querySelector('#content-attendance .portfolio-btn[data-filter=\'*\']').click(); window.dispatchEvent(new Event('resize')); }, 150);" style="margin-left: 15px;">
 								Attendance at other events
 							</button>
 						</div>
@@ -874,13 +874,28 @@
 					</div>
 				</div>
 			</div>
-		</section>
 		<!-- End inner page Hero -->
 
 		<!-- Start inner page Hero -->
 		<div id="content-attendance" style="display: none;">
+			<div class="sec-heading  ">
+				<div class="content-area">
+					<h3 class="title" style="font-size: 2rem;">Previous events</h3>
+				</div>
+			</div>
+
+			<div class="portfolio-wrapper">
+				<ul class="portfolio-btn-list wow fadeInUp" data-wow-delay=".2s">
+					<li class="portfolio-btn active " data-filter="*">Toate</li>
+					<li class="portfolio-btn        " data-filter=".2020">2020</li>
+					<li class="portfolio-btn        " data-filter=".2019">2019</li>
+					<li class="portfolio-btn        " data-filter=".2018">2018</li>
+					<li class="portfolio-btn        " data-filter=".2017">2017</li>
+				</ul>
+			<div class="portfolio-group wow fadeIn">
 			<div class="services-boxed past-events-holder">
 				<div class="services-row" styles = "margin: 20px;">
+					<div class="portfolio-item 2020">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">29</div>
@@ -904,7 +919,9 @@
 							</div>
 						</div>
 					</div>
-
+					</div>
+					
+					<div class="portfolio-item 2019">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">10</div>
@@ -924,7 +941,9 @@
 							</p>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2019">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">21</div>
@@ -948,7 +967,9 @@
 							</a>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2019">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">22</div>
@@ -968,7 +989,9 @@
 							</p>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2019">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">18-19</div>
@@ -992,7 +1015,9 @@
 							</div>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2018">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">06</div>
@@ -1016,7 +1041,9 @@
 							</div>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2018">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">26</div>
@@ -1044,7 +1071,9 @@
 							</a>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2018">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">25</div>
@@ -1072,7 +1101,9 @@
 							</a>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2018">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">24</div>
@@ -1100,7 +1131,9 @@
 							</a>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2018">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">22</div>
@@ -1124,7 +1157,9 @@
 							</a>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2018">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">11</div>
@@ -1152,7 +1187,9 @@
 							</a>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2017">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">17</div>
@@ -1180,7 +1217,9 @@
 							</a>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2017">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;">
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">12-13</div>
@@ -1208,7 +1247,9 @@
 							</a>
 						</div>
 					</div>
+					</div>
 
+					<div class="portfolio-item 2017">
 					<div class="service-box" style="display: flex; gap: 30px; align-items: flex-start; padding: 0; overflow: hidden; margin-bottom: 30px;"> 
 						<div style="background-color: var(--clr-accent); color: white; padding: 25px 15px; text-align: center; min-width: 130px; align-self: stretch; display: flex; flex-direction: column; justify-content: center;">
 							<div style="font-size: 1.8rem; font-weight: 700; line-height: 1.2;">30</div>
@@ -1237,8 +1278,12 @@
 						</div>
 					</div>
 				</div>
+				</div>
 			</div>  
 		</div>
+		</div>
+		</div>
+		</section>
 		<!-- End inner page Hero -->
 
 		<!-- Start  page-footer Section-->
