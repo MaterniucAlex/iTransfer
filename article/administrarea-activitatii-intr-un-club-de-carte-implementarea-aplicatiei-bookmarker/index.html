@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IT Solutions &amp; Business Services Responsive HTML5 Bootstrap5 Website Template">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- fav icon -->
+        <link rel="icon" href="../../../assets/images/fav-icon/iTransfer-fav-icon.png">
+
+        <!-- bootstarp -->
+        <link rel="stylesheet" href="../../../css/vendors/bootstrap.min.css">
+
+        <!-- animate.css file -->
+        <link rel="stylesheet" href="../../../css/vendors/animate.css">
+
+        <!-- Swiper -->
+        <link rel="stylesheet" href="../../../css/vendors/swiper-bundle.min.css">
+
+        <!-- flaticon -->
+        <link rel="stylesheet" href="../../../css/vendors/flaticon/flaticon.css">
+
+        <!-- fontAwesome -->
+        <link rel="stylesheet" href="../../../css/vendors/all.min.css">
+
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="../../../css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css">
+
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="../../../css/vendors/jquery.fancybox.min.css">
+
+        <!-- fonts site preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <!-- fonts site preconnect -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Font Family -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap">
+
+        <!-- main-LTR -->
+        <link rel="stylesheet" href="../../../css/main-LTR.css">
+        <title>iTransfer | Administrarea activit??ii într-un club de carte: implementarea aplica?iei BookMarker - iTransfer</title>
+
+        <style>
+          .article-content-wrapper img.custom-article-img {
+              display: block !important;
+              margin: 30px auto 10px auto !important;
+              max-width: 85% !important;
+              height: auto !important;
+              border-radius: 4px;
+          }
+          .article-content-wrapper figcaption,
+          .article-content-wrapper .wp-caption-text,
+          .article-content-wrapper .img-caption {
+              text-align: center !important;
+              font-style: italic !important;
+              margin-bottom: 30px;
+              color: #a0a0a0;
+              display: block;
+              font-size: 14px;
+          }
+        </style>
+  </head>
+  <body class=" dark-theme ">
+    <!--Start Page Header-->
+    <header class=" page-header   header-basic" id="page-header">
+      <div class="header-search-box">
+        <div class="close-search"></div>
+        <form class="nav-search search-form" role="search" method="get" action="#">
+          <div class="search-wrapper">
+            <label class="search-lbl">Search for:</label>
+            <input class="search-input" type="search" placeholder="Search..." name="searchInput" autofocus="autofocus"/>
+            <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <nav class="menu-navbar">
+          <div class="header-logo"><a class="logo-link" href="https://www.uaic.ro/"><img class="logo-img light-logo" loading="lazy" src="../../../assets/images/logo/uaic.png" style="height:40px;margin-right:40px;" alt="logo"/><img class="logo-img  dark-logo" loading="lazy" src="../../../assets/images/logo/uaic.png" style="height:40px;margin-right:40px;" alt="logo"/></a></div>
+          <div class="header-logo"><a class="logo-link" href="../../index.html"><img class="logo-img light-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots.png" style="height:40px;" alt="logo"/><img class="logo-img  dark-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots.png" style="height:40px;" alt="logo"/></a></div>
+          <div class="links menu-wrapper ">
+            <ul class="list-../js links-list">
+              <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../index.html">Home</a></li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">About<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../mission.html">Mission</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../team.html">Team</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../collaboration.html">Collaboration</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Academy<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../university-consortium.html">University consortium</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../academic-expertise.html">Academic expertise</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../interdisciplinarity.html">Interdisciplinarity</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Activities and services<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../information.html">Information</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../events.html">Events</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../cursuri.html">Our Courses</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../funding-opportunities.html">Funding Oportunities</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../entrepreneurship.html">Entrepreneurship</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Results<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../products.html">Products</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../prototypes.html">Prototypes</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../knowledge-transfer.html">Knowledge transfer</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../projects.html">Projects</a></li>
+                </ul>
+              </li>
+              <li class="menu-item"><a class="menu-link  " href="../../contact-us.html">contact us </a></li>
+            </ul>
+          </div>
+          <div class="controls-box">
+            <!--Menu Toggler button-->
+            <div class="control  menu-toggler"><span></span><span></span><span></span></div>
+            <!--search Icon button-->
+            <div class="control header-search-btn"><i class="bi bi-search icon"></i></div>
+            <!--Dark/Light mode button-->
+            <div class="mode-switcher ">
+              <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+              <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--End Page Header-->
+
+    <!-- Start inner Page hero-->
+    <section class="d-flex align-items-center page-hero inner-page-hero" id="page-hero" style="min-height: 350px !important; height: 350px;">
+      <div class="overlay-photo-image-bg parallax" data-bg-img="../../../assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
+      <div class="overlay-color" data-bg-opacity=".75"></div>
+      <div class="container" style="margin-top:45px;">
+        <div class="hero-text-area centerd">
+          <h1 class="hero-title wow fadeInUp" data-wow-delay=".2s">Administrarea activit??ii într-un club de carte: implementarea aplica?iei BookMarker - iTransfer</h1>
+        </div>
+      </div>
+    </section>
+    <!-- End inner Page hero-->
+
+    <!-- Start our team Section-->
+    <section class="our-team mega-section " id="our-team">
+      <div class="container">
+        <div class="sec-heading  ">
+          <div class="content-area">
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"></h2>
+          </div>
+        </div>
+
+        <div class="article-content-wrapper">
+            <div class="entry-content default-page">
+<div class="elementor elementor-23279" data-elementor-id="23279" data-elementor-settings="[]" data-elementor-type="wp-post">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-d8fc406 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="d8fc406" data-settings='{"stretch_section":"section-stretched"}'>
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="has_eae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1ed5a99" data-element_type="column" data-id="1ed5a99">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-1801a15 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="1801a15" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><p><em>Data publicării: 29.08.2017</em><br/><em>Autor articol: Corina Forascu</em></p></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-1a7721b elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="1a7721b" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">
+<p align="justify">În urma folosirii unei arhitecturi de tip MVC și totodată modularizată și scalabilă, împreună cu îmbinarea acestor tehnologii, aplicația Bookmark are ca utilitate finală transpunerea într-un sistem virtual a întregului proces ce reprezintă organizarea unui club de citit în viata reală, un iubitor de cărți având totul la o distanță de câteva click-uri. Aplicația folosește o arhitectură MVC (Leff, 2001) modularizată și scalabilă, combinând următoarele tehnologii:</p>
+<ul>
+<li>pe partea de client: React, Redux, HTML, CSS, Webpack şi serviciile de la Google – Google Maps Javascript API şi Google Maps Encoding API</li>
+<li>pe partea de server: Node (Tilkov &amp; Vinoski, 2010), Express, MongoDb (online) și serviciile de la Google – Google Books API şi Google+ API</li>
+</ul>
+<p align="justify">Codul aplicației este împărțit in două mari părți: frontend (client) si backend (server). Astfel toate rutele exportate de server pot fi reutilizate oricând la o integrare cu o altă platformă de client. Arhitectura aplicației este reprezentată în diagrama următoare.</p>
+<p align="justify"><img alt="" class="img-fluid custom-article-img" decoding="async" height="265" src="c1.png" width="619"/></p>
+<p align="justify">Pentru implementarea bazei de date, aplicația Bookmarker folosește MongoDB ca sistem de gestiune al acesteia, întrucât este ușor de integrat și de folosit în Node.js.</p>
+<p align="justify">Conexiunea la baza de date se realizează la nivel de server, cu ajutorul pachetului <i>mongodb. </i>Acesta conține metode ce ajuta la conectarea la baza de date, precum și pentru acțiunile necesare pe fiecare colecție din baza de date.</p>
+<p align="justify">Baza de date a aplicației Bookmarker conține patru colecții: users, bookClubs, messages și comment-threads (i.e utilizatorii aplicației, cluburile de carte create la accesarea fiecărei cărți în parte, mesajele din discuțiile private și comentariile ce reprezinta recenziile adăugate pe pagina cărții).</p>
+<p align="justify">Design-ul aplicației este unul destul de aerisit, pentru a da libertate utilizatorului sa observe ușor acțiunile pe care le poate face în aplicație. Așadar, pagina de autentificare conține butoanele clasice de logare (atât cu user normal cat și cu contul de Google) și înregistrare, iar fundalul este reprezentat de o imagine cu un băiat care citește, imagine sugestivă pentru scopul aplicației.</p>
+<p align="justify"><img alt="" class="img-fluid custom-article-img" decoding="async" height="723" src="c2.png" width="1639"/></p>
+<p align="justify">În urma înregistrării, cititorul va fi redirecționat pe pagină de start a aplicației, unde va găsi informații despre activitatea lui și va putea vizualiza și un carusel cu niște cărți recomandate pentru el (bazate pe stilurile alese la înregistrarea în aplicație).</p>
+<p align="justify"><img alt="" class="img-fluid custom-article-img" decoding="async" height="732" src="c3.png" width="1219"/></p>
+<p align="justify">Apoi, la accesarea unei cărți, utilizatorul va putea vizualiza cu ușurință informații despre aceasta și despre clubul de citit asociat ei, cât și recenzii oferite de alți cititori.</p>
+<p align="justify">În concluzie, aplicația Bookmarker rezolvă impedimentele menționate în articolul din luna iunie, întrucât:</p>
+<ul>
+<li><p align="justify">în urma înregistrării în aplicație, utilizatorului îi sunt recomandate niște cărți bazate pe stilurile de citit alese anterior. Cu aceasta funcționalitate, iubitorului de cărți îi va fi mult mai simplu să aleagă o carte care mai mult ca sigur îi va fi pe plac. Când va accesa cartea, un club de citit va fi creat automat pentru cartea respectivă (dacă nu exista deja) și utilizatorul poate să se alăture cititorilor înregistrați în club printr-un simplu click.</p></li>
+<li>
+<p align="justify">Pentru a-și procura cartea, un sistem de împrumutare îi stă la dispoziție. Utilizatorul poate vizualiza toți cititorii din club pe o hartă, fiecare din ei fiind poziționați în locul geografic corespunzător adresei introduse atunci când s-au înregistrat în aplicație. Printr-un click pe o persoana de pe hartă, se poate iniția o discuție privată. În funcție de tipul de format al cărții cerute ca împrumut există două soluții. Fie:</p>
+<ul>
+<li><p align="justify">format fizic – cei doi care discută se vor întâlni în viata reală și unul îi va preda celuilalt cartea</p></li>
+<li><p align="justify">format electronic – asta presupune ca cel care este contactat s-a înregistrat cu contul de Google și are pe raftul de cărți din Google Books cartea respectivă, iar tot ce trebuie sa facă e sa ii paseze utilizatorului care a inițiat discuția o adresă de descărcare a cărții cerute</p></li>
+</ul>
+</li>
+</ul>
+<p align="justify">În concluzie, alegerea cărții nu mai presupune și implicarea altor persoane, clubul de citit fiind asociat unei cărți recomandate fiecărui utilizator în parte, așadar sigur îi va face plăcere să o citească; sincronizarea calendarelor a N persoane nu va mai reprezenta o problemă, întrucât sistemul se ocupă de asta și procurarea cărților va fi mult mai rapidă cu funcționalitatea de împrumutare de cărți.</p>
+<p align="justify">În stadiul actual aplicația Boormarker își atinge scopul inițial propus, însă este loc de îmbunatățiri, dintre care putem enumera:</p>
+<ul><li><p align="justify"><b>Optimizare algoritm recomandări de cărți</b></p></li></ul>
+<p align="justify">Preluarea cărților din Google Books după categoriile acestora este, actualmente, cam greoaie, de aceea timpul de răspuns e destul de mare. Ar trebui căutată o soluție în rezolvarea acestei probleme sau, de ce nu, apelarea la alte API-uri, cum ar fi cel pus la dispoziție de Amazon.</p>
+<ul><li><p align="justify"><b>Campanii de monetizare</b></p></li></ul>
+<p align="justify">Avem în vedere abilitatea utilizatorilor de a putea căuta o carte pe mai multe site-uri, de a putea face o comparare de prețuri și în final, de a se hotărî la o librărie, de unde să o procure. Aceasta funcționalitate ar da libertate cititorului, astfel încât nu ar mai fi condiționat de descărcarea cărții în format electronic sau de a împrumuta cartea de la un alt utilizator. Integrarea cu mai multe librării online ar creste și popularitatea aplicației.</p>
+<ul><li><p align="justify"><b>Integrare de notificări pe email</b></p></li></ul>
+<p align="justify">Aceasta funcționalitate ar putea să intervină la fiecare acțiune ce se răsfrânge asupra utilizatorului, cum ar fi: apropierea sfârșitului perioadei de citit sau de făcut dezbatere, ieftinirea unei cărți din lista de dorințe, contactarea de către un alt utilizator pe chat etc. Sau chiar notificarea zilnică/săptămânală de cărți recomandată și pe mail, nu doar în aplicație. Astfel, cititorul ar fi întotdeauna conștient de ce se întâmplă în aplicație, fie ca o accesează sau nu. Bineînțeles, va fi și o modalitate prin care se poate dezabona, pentru a nu fi spamat cu informații inutile.</p>
+<ul><li><p align="justify"><b>Cuantificarea popularității utilizatorilor</b></p></li></ul>
+<p align="justify">Aceasta implică setarea unei unități măsuri pe profilul fiecărei persoane, care se autoincrementează pe măsura ce aceasta fie: participă în mai multe cluburi (ceea ce înseamnă că citeste din ce în ce mai mult, teoretic), împrumută foarte des cărți altor utilizatori (ceea ce semnifică faptul că e implicat și ajută la dezvoltarea aplicației), participă în recenzarea unei cărți foarte mult etc.</p>
+<ul><li><p align="justify"><b>Optimizarea funcției de discuție privată</b></p></li></ul>
+<p align="justify">Este de dorit ca pe viitor să se poată crea și discuții între mai mulți useri. Pe partea de server această funcționalitate e implementată în asa fel încât se pot crea discuții și între mai mulți utilizatori, însa pe partea de client este nevoie de o schimbare a design-ului.</p>
+<h1 class="western">Referințe</h1>
+<ul>
+<li>Leff, A. and J. T. Rayfield (2001) Web-application development using the Model/View/Controller design pattern Proceedings Fifth IEEE International Enterprise Distributed Object Computing Conference, pp. 118–127, 2001. http://ieeexplore.ieee.org/document/950428/</li>
+<li>MongoDB Tutorial [Online] http://www.tutorialspoint.com/mongodb/</li>
+<li>Tilkov S. and S. Vinoski (2010). Node.js: Using JavaScript to Build High-Performance Network Programs. <i>IEEE Internet Computing</i>, vol. 14, no. 6, pp. 80–83, 2010. http://doi.ieeecomputersociety.org/10.1109/MIC.2010.145</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+        </div>
+
+	  <hr>
+      </div>
+    </section>
+    <!-- End our team Section-->
+
+    <!-- Start  page-footer Section-->
+    <footer class="page-footer dark-color-footer" id="page-footer" style="min-height: 350px !important; height: 350px;">
+      <div class="overlay-photo-image-bg" data-bg-img="../../../assets/images/sections-bg-images/footer-bg-1.jpg" data-bg-opacity=".25"></div>
+      <div class="container">
+        <div class="row footer-cols">
+          <div class="col-12 col-md-8 col-lg-4  footer-col "><img class="img-fluid footer-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots2.png" alt="logo"/>
+            <div class="footer-col-content-wrapper">
+              <p class="footer-text-about-us "> The iTransfer mission is to stimulate innovation and technology transfer in order to capitalize on research results by introducing them into the economic circuit in the form of innovative products and services.   </p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2  footer-col ">
+            <h2 class=" footer-col-title    ">useful links</h2>
+            <div class="footer-col-content-wrapper">
+              <ul class="footer-menu ">
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../contact-us.html">Contact Us</a> </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../information.html">Information</a> </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../team.html">Team</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 footer-col "> </div>
+          <div class="col-12     col-lg-4 footer-col ">
+            <h2 class=" footer-col-title    ">contact information</h2>
+            <div class="footer-col-content-wrapper">
+              <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" href="mailto:itransferspace@gmail.com">itransferspace@gmail.com</a></div>
+              <div class="contact-info-card">
+                <div class="social-icons">
+                  <div class="sc-wrapper dir-row sc-size-32">
+                    <ul class="sc-list">
+                      <li class="sc-item " title="Facebook"><a class="sc-link" href="https://www.facebook.com/cttitransfer/?_rdc=1&_rdr" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                      <li class="sc-item " title="youtube"><a class="sc-link" href="https://www.youtube.com/@adsfii6229/videos" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                      <li class="sc-item " title="linkedin"><a class="sc-link" href="http://www.linkedin.com/company/centru-de-transfer-tehnologic-itransfer" title="social media icon"><i class="fab fa-linkedin sc-icon"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights ">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-start">
+              <p class="creadits"> 2017 - 2026 © iTransfer </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  page-footer Section-->
+    <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div>
+    <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i></div>
+
+        <!--     JQuery     -->
+        <script src="../../../js/vendors/jquery-3.6.1.min.js"></script>
+        <script src="../../../js/vendors/appear.min.js"></script>
+        <script src="../../../js/vendors/bootstrap.bundle.min.js"></script>
+        <script src="../../../js/vendors/jquery.countTo.js"></script>
+        <script src="../../../js/vendors/wow.min.js"></script>
+        <script src="../../../js/vendors/swiper-bundle.min.js"></script>
+        <script src="../../../js/vendors/particles.min.js"></script>
+        <script src="../../../js/vendors/vanilla-tilt.min.js"></script>
+        <script src="../../../js/vendors/isotope-min.js"></script>
+        <script src="../../../js/vendors/jquery.fancybox.min.js"></script>
+        <script src="../../../js/main.js"></script>
+  </body>
+</html>

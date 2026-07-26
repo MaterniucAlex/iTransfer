@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IT Solutions &amp; Business Services Responsive HTML5 Bootstrap5 Website Template">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- fav icon -->
+        <link rel="icon" href="../../../assets/images/fav-icon/iTransfer-fav-icon.png">
+
+        <!-- bootstarp -->
+        <link rel="stylesheet" href="../../../css/vendors/bootstrap.min.css">
+
+        <!-- animate.css file -->
+        <link rel="stylesheet" href="../../../css/vendors/animate.css">
+
+        <!-- Swiper -->
+        <link rel="stylesheet" href="../../../css/vendors/swiper-bundle.min.css">
+
+        <!-- flaticon -->
+        <link rel="stylesheet" href="../../../css/vendors/flaticon/flaticon.css">
+
+        <!-- fontAwesome -->
+        <link rel="stylesheet" href="../../../css/vendors/all.min.css">
+
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="../../../css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css">
+
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="../../../css/vendors/jquery.fancybox.min.css">
+
+        <!-- fonts site preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <!-- fonts site preconnect -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Font Family -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap">
+
+        <!-- main-LTR -->
+        <link rel="stylesheet" href="../../../css/main-LTR.css">
+        <title>iTransfer | Securitatea ADN –Implementare in mediul Java. Comparatii algoritmi. - iTransfer</title>
+
+        <style>
+          .article-content-wrapper img.custom-article-img {
+              display: block !important;
+              margin: 30px auto 10px auto !important;
+              max-width: 85% !important;
+              height: auto !important;
+              border-radius: 4px;
+          }
+          .article-content-wrapper figcaption,
+          .article-content-wrapper .wp-caption-text,
+          .article-content-wrapper .img-caption {
+              text-align: center !important;
+              font-style: italic !important;
+              margin-bottom: 30px;
+              color: #a0a0a0;
+              display: block;
+              font-size: 14px;
+          }
+        </style>
+  </head>
+  <body class=" dark-theme ">
+    <!--Start Page Header-->
+    <header class=" page-header   header-basic" id="page-header">
+      <div class="header-search-box">
+        <div class="close-search"></div>
+        <form class="nav-search search-form" role="search" method="get" action="#">
+          <div class="search-wrapper">
+            <label class="search-lbl">Search for:</label>
+            <input class="search-input" type="search" placeholder="Search..." name="searchInput" autofocus="autofocus"/>
+            <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <nav class="menu-navbar">
+          <div class="header-logo"><a class="logo-link" href="https://www.uaic.ro/"><img class="logo-img light-logo" loading="lazy" src="../../../assets/images/logo/uaic.png" style="height:40px;margin-right:40px;" alt="logo"/><img class="logo-img  dark-logo" loading="lazy" src="../../../assets/images/logo/uaic.png" style="height:40px;margin-right:40px;" alt="logo"/></a></div>
+          <div class="header-logo"><a class="logo-link" href="../../index.html"><img class="logo-img light-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots.png" style="height:40px;" alt="logo"/><img class="logo-img  dark-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots.png" style="height:40px;" alt="logo"/></a></div>
+          <div class="links menu-wrapper ">
+            <ul class="list-../js links-list">
+              <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../index.html">Home</a></li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">About<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../mission.html">Mission</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../team.html">Team</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../collaboration.html">Collaboration</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Academy<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../university-consortium.html">University consortium</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../academic-expertise.html">Academic expertise</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../interdisciplinarity.html">Interdisciplinarity</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Activities and services<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../information.html">Information</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../events.html">Events</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../cursuri.html">Our Courses</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../funding-opportunities.html">Funding Oportunities</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../entrepreneurship.html">Entrepreneurship</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Results<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../products.html">Products</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../prototypes.html">Prototypes</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../knowledge-transfer.html">Knowledge transfer</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../projects.html">Projects</a></li>
+                </ul>
+              </li>
+              <li class="menu-item"><a class="menu-link  " href="../../contact-us.html">contact us </a></li>
+            </ul>
+          </div>
+          <div class="controls-box">
+            <!--Menu Toggler button-->
+            <div class="control  menu-toggler"><span></span><span></span><span></span></div>
+            <!--search Icon button-->
+            <div class="control header-search-btn"><i class="bi bi-search icon"></i></div>
+            <!--Dark/Light mode button-->
+            <div class="mode-switcher ">
+              <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+              <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--End Page Header-->
+
+    <!-- Start inner Page hero-->
+    <section class="d-flex align-items-center page-hero inner-page-hero" id="page-hero" style="min-height: 350px !important; height: 350px;">
+      <div class="overlay-photo-image-bg parallax" data-bg-img="../../../assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
+      <div class="overlay-color" data-bg-opacity=".75"></div>
+      <div class="container" style="margin-top:45px;">
+        <div class="hero-text-area centerd">
+          <h1 class="hero-title wow fadeInUp" data-wow-delay=".2s">Securitatea ADN –Implementare in mediul Java. Comparatii algoritmi. - iTransfer</h1>
+        </div>
+      </div>
+    </section>
+    <!-- End inner Page hero-->
+
+    <!-- Start our team Section-->
+    <section class="our-team mega-section " id="our-team">
+      <div class="container">
+        <div class="sec-heading  ">
+          <div class="content-area">
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"></h2>
+          </div>
+        </div>
+
+        <div class="article-content-wrapper">
+            <div class="entry-content default-page">
+<div class="elementor elementor-23202" data-elementor-id="23202" data-elementor-settings="[]" data-elementor-type="wp-post">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-a8117f9 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="a8117f9" data-settings='{"stretch_section":"section-stretched"}'>
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="has_eae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c36d0de" data-element_type="column" data-id="c36d0de">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-65413d1 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="65413d1" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><p><em>Data publicării: 08.11.2017</em><br/><em>Autor articol: Mircea Vaida</em></p></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-6c5a4bb elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="6c5a4bb" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">
+<h1 class="western">1. Securitatea ADN- Implementare in mediul Java. Comparatii algoritmi.</h1>
+<p>Raportul precedent a facut o trecere in revista a notiunilor fundamentale folosite de securitatea ADN.</p>
+<p>La baza implemntarilor in mediul Java au fost utilizate JCE (Java Cryptography Extension) și JCA (Java Cryptografy Archiecture) care definesc modul în care se poate dezvolta și integra un nou algoritm de criptare.</p>
+<p>Generarea cheilor, cripatrea si decriptarea ADN proprie este descrisa de asemenea in raportul precedent folosind si diagrame UML. In continuare va fi descrisa partea de implementrae si integrare a cifrului precum si o comparatie a algoritmilor clasici si cel ADN referitor la procesul de criptare si decriptare descris anterior.</p>
+<h1 class="western">1.1 Implementarea și integrarea cifrului</h1>
+<p>Întregul cod a fost scris în limbajul Java. JCE (Java Cryptography Extension) și JCA (Java Cryptografy Archiecture) care au cunoscut evolutii odata cu noile variante Java SE, dar care pentru compatibilitate respecta mecanismul initial propus de Sun.</p>
+<p>Conform indicațiilor oferite de către Oracle/Sun, în documentul intitulat How To Implement a Provider for the Java Cryptography Extension [9] , identificăm următorii pași:</p>
+<ol>
+<li>Scrierea codului care implementează serviciile dorite</li>
+<li>Alegerea unui nume pentru Provider</li>
+<li>Scrierea clasei principale, “Master class”, derivată din clasa Provider</li>
+<li>Compilarea Codului</li>
+<li>Prepararea pentru testare</li>
+<li>Scrierea și compilarea programelor de test</li>
+<li>Rularea programelor de test</li>
+<li>Documentarea Providerului și a serviciilor suportate de acesta</li>
+</ol>
+<h3>În scopul respectării cerințelor s-a procedat astfel:</h3>
+<p><em>1. Scrierea codului care implementează serviciile dorite</em></p>
+<p>În acest stadiu, Providerul CryptoDNA suportă doar algoritmul de criptare ADN.  Pentru a realiza implementarea acestuia, s-au creat clase derivate din clasele SPI corespunzătoare, respectiv din clasele CipherSpi și KeyGeneratorSpi. Acestea au implementat metodele abstracte ale căror nume încep cu cuvântul “engine”. Pentru optimizarea codului, s-au construit și o altă clasă care manipulează blocurile, precum și alte metode ( encryptBlock, decryptBlock etc) care sunt mai apoi apelate în cadrul metodelor engine.</p>
+<figure aria-describedby="caption-attachment-23205" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="594" src="Page-2-Image-2-3.jpg" width="842"/><figcaption class="wp-caption-text">Fig. 1 Derivarea claselor SPI</figcaption></figure><p>2. <em>Alegerea unui nume pentru Provider</em></p>
+<p>Numele ales a fost CryptoDNA. El va fi folosit de către aplicațiile clienților pentru a se referi la acesta.</p>
+<p>3. <em>Scrierea clasei principale, “Master class”, derivată din clasa Provider</em></p>
+<p>Cel de-al 3-lea pas este cel în care este creată o clasă derivată din clasa java.security.Provider.</p>
+<figure aria-describedby="caption-attachment-23206" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="230" src="Page-3-Image-3-4.jpg" width="310"/><figcaption class="wp-caption-text">Fig. 2 Derivarea clasei Provider din clasa java.security.Provider</figcaption></figure><p>Această clasă derivată este finală iar constructorul apelează super, specificând numele Providerului ales la pasul 2 și informații legate de provider și algoritmul suportat:</p>
+<pre>super (“CryptoDNA”,  2.0,  “DNA Cryptography Provider”);</pre>
+<p>De asemenea, pentru fiecare serviciu implementat de către provider, trebuie să existe o proprietate a cărei nume reprezintă tipul de serviciu, urmat de un punct și de numele algoritmului căruia îi este aplicat serviciul. Proprietatea trebuie să specifice numele complet al clasei care implementează serviciul:</p>
+<pre>put(“KeyGenerator.DNA”,  “dnaPack1.DNAKeyGenerator”);<br/><br/>put(“Cipher.DNA”, “dnaPack1.DNACipher”);</pre>
+<p>În cazul Cipher, numele algoritmului poate reprezenta o transformare și poate fi compusă din numele algoritmului, un mod particular și o schema de padding (dacă este cazul).</p>
+<p>4. <em>Compilarea Codului</em></p>
+<p>Codul a fost compilat, rezultând fișierele de tip *.class.</p>
+<p>5. <em>Prepararea pentru testare</em></p>
+<p>La acest pas, pentru a putea efectua orice fel de teste, inclusiv pe mașina locală, este necesar un certificat de semnare a codului. Certificatul valid 5 ani util atât pentru testare cât și pentru producție.</p>
+<p>Pentru a obține un astfel de certificat trebuie procedat astfel:</p>
+<p>a. Se folosește keytool pentru a genera o pereche de chei.</p>
+<pre>keytool -genkey -alias &lt;alias&gt; -keyalg DSA -keysize 1024<br/><br/>   -dname “cn=&lt;Company Name&gt;,ou=Java Software Code Signing,<br/><br/>   o=Sun Microsystems Inc”<br/><br/>   -keystore &lt;keystore file name&gt;<br/><br/>   -storepass &lt;keystore password&gt;</pre>
+<p>Acestea se scriu pe o singură linie. Rezultatul va constitui o pereche de chei DSA (o cheie publică și cheia privată pereche) stocată în keystore-ul specificat. Daca locul de stocare (keystore) nu există, el va fi creat.</p>
+<p>b. Folosind keytool, se va genera o cerere pentru semnarea de certificat.</p>
+<pre>keytool -certreq -alias &lt;alias&gt; -sigalg DSA<br/><br/>       -file &lt;csr file name&gt;<br/><br/>       -keystore &lt;keystore file name&gt;<br/><br/>       -storepass &lt;keystore password&gt;</pre>
+<p>Această comandă va genera un CSR (Certificate Signing Request), folosind formatul PKCS#1.</p>
+<p>c. Se trimit prin email CSR și informațiile de contact la adresa javasoft-cert-request@sun.com.</p>
+<p>d. După primirea email-ului, JCE Code Signing Certification Authority va trimite un număr de cerere prin email. Acest număr va trebui introdus într-un formular (10) care se va trimite la următoarea adresă :</p>
+<pre>Oracle/Sun Microsystems, Inc.<br/>International Trade Services/Export Compliance<br/>Attn: Encryption Export<br/>4120 Network Circle MS: USCA12-204<br/>Santa Clara, CA 95054<br/>U.S.A.</pre>
+<p>După primirea certificatului, Providerul se va include într-o arhivă de tip JAR care va fi mai apoi semnată cu unealta jarsigner care va include și acest certificat.</p>
+<p>Providerul va fi adăugat în lista de Providere, editând fișierul java.security astfel încât ultimul provider din listă va fi Providerul CryptoDNA:</p>
+<pre><i>security.provider.11=dnaPack1.Provider</i></pre>
+<p>6. În scopul testării s-a construit o clasa numită testADN. În cadrul acesteia se va instanția un obiect de tip Cipher, se va genera o cheie folosind clasa KeyGenerator, ambele primind ca argument string-ul “DNA” care reprezintă numele algoritmului.</p>
+<p>7. S-au rulat programele de test.</p>
+<p>Deoarece în urma efectuării pașilor necesari obținerii unui certificat de la Sun s-a primit un răspuns negativ, motivând lipsa resurselor necesare urmăririi unui astfel proiect realizat de un student, s-a dezvoltat acest Provider folosind OpenJDK . OpenJDK este un Java Development Kit gratuit, bazat pe cod open source, realizat prin eforturile Sun Microsystems. El oferă toate facilitățile oferite de platforma Java, de la versiunea JDK SE6.0, fără a impune restricții cu privire la folosirea Providerelor. Astfel, Providerul CryptoDNA a fost dezvoltat în OpenJDK, sub platforma Linux, distribuția Ubuntu.</p>
+<p>S-au efectuat teste în scopul comparării timpului necesar criptării, respectiv decriptării în cazul diverselor cifruri, inclusiv folosind algoritmul de codare ADN. Secvența de test a fost:</p>
+<blockquote><pre>TAACAGATTGATGATGCATGAAATGGGCCCATGAGTGGCTCCTAAAGCAGCTGCTTACAGATTGATGATGCATGAAATGGGGGGTGGCCAGGGGTGGGGGGTGAGACTGCAGAGAAAGGCAGGGCTGGTTCATAACAAGCTTTGTGCGTCCCAATATGACAGCTGAAGTTTTCCAGGGGCTGATGGTGAGCCAGTGAGGGTAAGTACACAGAACATCCTAGAGAAACCCTCATTCCTTAAAGATTAAAAATAAAGACTTGCTGTCTGTAAGGGATTGGATTATCCTATTTGAGAAATTCTGTTATCCAGAATGGCTTACCCCACAATGCTGAAAAGTGTGTACCGTAATCTCAAAGCAAGCTCCTCCTCAGACAGAGAAACACCAGCCGTCACAGGAAGCAAAGAAATTGGCTTCACTTTTAAGGTGAATCCAGAACCCAGATGTCAGAGCTCCAAGCACTTTGCTCTCAGCTCCACGCAGCTGCTTTAGGAGCCACTCATGAG</pre></blockquote>
+<p>Testele s-au efectuat pe un sistem cu următoarele caracteristici:</p>
+<pre>Procesor Intel, OS: Ubuntu</pre>
+<figure aria-describedby="caption-attachment-23207" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="570" src="Capture.jpg" width="744"/><figcaption class="wp-caption-text">Fig. 3 Timpul necesar criptării și decriptării în cazul diverselor cifruri</figcaption></figure><p>Se poate constata faptul că cifrul ADN necesită un timp relativ mic pentru criptare dar un timp foarte mare, comparativ cu ceilalți algoritmi, pentru decriptare. Dintre cele 5 cifruri, cel care necesită cel mai scurt timp pentru criptare este Blowfish, iar pentru decriptare AES.</p>
+<h2 class="western">1.2 Integrarea Providerului într-o aplicație bazata pe un mecanism clasic de securizare</h2>
+<p>Aplicația SmartCipher este dezvoltată folosind limbajul Java, în OpenJDK, sub platforma Linux, distribuția Ubuntu. Ea reprezintă o unealtă folositoare pentru comparația dintre rezultatul criptării în cazul diverselor cifruri.</p>
+<p>Interfața a fost creată folosind plug-in-ul pentru Eclipse Java IDE Jigloo GUI Builder, dezvoltat de către Cloud Garden. În cazul de față s-a utilizat varianta pentru uz necomercial care este gratuită.</p>
+<p>Interfața conține un TextArea în care utilizatorul poate introduce textul pe care dorește să-l cripteze. Următorul pas este selecția cifrului. Disponibile sunt 4 cifruri: Des, TripleDes, Blowfish și DNA dintre care se poate alege unul folosind butonul radio corespunzător.</p>
+<p>În urma apăsării butonului “Cripteaza” se vor afișa în celelalte două chenare textul criptat, respectiv textul după decriptare, precum și duratele necesare criptării și decriptării.</p>
+<figure aria-describedby="caption-attachment-23208" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="646" src="Page-6-Image-5-6.jpg" width="842"/><figcaption class="wp-caption-text">Fig. 4 Interfața aplicației SmartCipher</figcaption></figure><figure aria-describedby="caption-attachment-23209" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="644" src="Page-7-Image-6-6.jpg" width="843"/><figcaption class="wp-caption-text">Fig. 5 Criptare/Decriptare folosind cifrul DES</figcaption></figure><figure aria-describedby="caption-attachment-23210" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="645" src="Page-8-Image-7-5.jpg" width="843"/><figcaption class="wp-caption-text">Fig. 6 Criptare/Decriptare folosind cifrul TripleDES</figcaption></figure><figure aria-describedby="caption-attachment-23211" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="645" src="Page-9-Image-8-2.jpg" width="843"/><figcaption class="wp-caption-text">Fig. 7 Criptare/Decriptare folosind cifrul Blowfish<dd></dd></figcaption></figure><figure aria-describedby="caption-attachment-23212" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="644" src="Page-10-Image-9-1-1.jpg" width="843"/><figcaption class="wp-caption-text">Fig. 8 Criptare/Decriptare folosind cifrul DNA</figcaption></figure><p>Se poate observa faptul că, datorită folosirii unei chei diferite la fiecare criptare, respectiv datorită mecanismul one-time-pad, rezultatul criptării va fi diferit de fiecare dată chiar dacă textul în clar rămâne neschimbat.</p>
+<figure aria-describedby="caption-attachment-23213" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="647" src="Page-11-Image-10-1-1.jpg" width="844"/><figcaption class="wp-caption-text">Fig. 9 Criptare/Decriptare folosind cifrul DNA și o altă cheie de criptare</figcaption></figure><h1 class="western">2. Concluzii  si dezvoltări ulterioare</h1>
+<p>În practică, de cele mai multe ori, sunt folosiți, în combinație, atât algoritmii simetrici, cât și cei nesimetrici. Acest tip de criptare, este numit criptare hibridă,fiind foarte folosit datorită rapidității și protecției care sunt oferite în același timp.</p>
+<p>Criptarea asimetrică are avantajul faptului că una dintre chei (cea de criptare) poate fi facută publică, fără a mai pune problema transmiterii unei singure chei care trebuie să rămână secretă. Aceasta cheie de criptare poate fi transmisă oricui, în timp ce cheia de decriptare este deținuta de cel ce a criptat, fiind denumită cheie privata. Un alt avantaj al cheilor asimetrice asigurearea identității. Dacă o persoana X criptează un mesaj I cu cheia lui privată, îl transmite unei persoane Y și aceasta îl poate decripta cu cheia publica primită, putem spune că Y are certitudinea că mesajul provine de la X.</p>
+<p>Criptarea simetrică are avantajul vitezei, fiind foarte utilă în cazul criptării fișierelor locale.</p>
+<p>Combinând avantajele celor două tipuri de algoritmi, rapiditatea și protecția, propun un protocol de criptare hibridă care funcționează astfel:</p>
+<p><b><i>Criptarea mesajului</i></b></p>
+<ul><li>Generarea cheii simetrice K, folosind algoritmul ADN de criptare simetrică</li></ul>
+<p>Generearea perechii formată dintr-o cheie publică și una privată folosind algoritmul ADN de criptare asimetrică propus de către Tatiana Hodorogea și Mircea Florin Vaida în articolul “Blood Analysis as Biometric Selection of Public Keys ”  [8]</p>
+<ul>
+<li>Criptarea mesajului M cu cheia simetrică și obținerea mesajul M*</li>
+<li>Preluarea cheii publice</li>
+<li>Criptarea cheii simetrice cu cheia publica și obtinerea lui K*</li>
+<li>Transmiterea perechii {K*,M*}</li>
+</ul>
+<p><b><i>Decriptarea mesajului</i></b></p>
+<ul>
+<li>Recepționarea mesajului {K*,M*} și separarea celor două câmpuri</li>
+<li>Decriptarea lui K* cu ajutorul cheii private proprii, pentru obținerea cheii K</li>
+<li>Decriptarea lui M* cu K pentru obținerea mesajului original M</li>
+</ul>
+<p>In cadrul acestui raport s-a urmarit construirea unui nou algoritm de criptare, precum și evaluarea acestuia în comparație cu alți algoritmi similari. Încadrând acest algoritm în categoria algoritmilor simetrici, am putut face o comparație a timpului necesar criptării, respectiv decriptării, cu alți algoritmi simetrici precum DES, TripleDES, Blowfish și AES.</p>
+<p>Cifrul face o prelucrare pe blocuri a textului în clar, fiecărui bloc fiindu-i aplicată o cheie secretă. O particularitate a acestui algoritm o reprezintă dubla criptare. Pentru a obține un cifru mai puternic s-au folosit doi algoritmi clasici de criptare: substituția și one-time-pad.</p>
+<p>Pentru a putea implementa acest cifru s-au construit următoarele clase:</p>
+<ol>
+<li>BlockCipher – efectuează împărțirea informației în blocuri de o dimensiune prestabilită</li>
+<li>DNAKeyGenerator – generează o cheie alcătuită dintr-un șir de octeți aleatori folosind clasa SecureRandom, pe care apoi o traduce conform alfabetului ADN</li>
+<li>DNAKey – clasa care returnează cheia generată cu clasa DNAKeyGenerator</li>
+<li>DNACipher – aplică regulile de criptare, respectiv decriptare</li>
+<li>Provider – un “Master Class” care coordonează modul în care serviciile criptografice sunt văzute în interiorul acestui Provider de securitate</li>
+<li>Prima prelucrare, respectiv prima criptare, transformă textul în clar într-un text tradus în limbaj ADN după următorul tabel:</li>
+</ol>
+<p> </p>
+<table><tbody>
+<tr>
+<td>A – CGA</td>
+<td>L – TGC</td>
+<td>W – CCG</td>
+<td>3 – GAC</td>
+</tr>
+<tr>
+<td>B – CCA</td>
+<td>M – TCC</td>
+<td>X – CTA</td>
+<td>4 – GAG</td>
+</tr>
+<tr>
+<td>C – GTT</td>
+<td>N – TCT</td>
+<td>Y – AAA</td>
+<td>5 – AGA</td>
+</tr>
+<tr>
+<td>D – TTG</td>
+<td>O – GGA</td>
+<td>Z – CTT</td>
+<td>6 – TTA</td>
+</tr>
+<tr>
+<td>E – GGC</td>
+<td>P – GTG</td>
+<td>_ – ATA</td>
+<td>7 – ACA</td>
+</tr>
+<tr>
+<td>F – GGT</td>
+<td>Q – AAC</td>
+<td>, – TCG</td>
+<td>8 – AGG</td>
+</tr>
+<tr>
+<td>G – TTT</td>
+<td>R – TCA</td>
+<td>. – GAT</td>
+<td>9 – GCG</td>
+</tr>
+<tr>
+<td>H – CGC</td>
+<td>S – ACG</td>
+<td>: – GCT</td>
+<td>space – CCC</td>
+</tr>
+<tr>
+<td>I  – ATG</td>
+<td>T – TTC</td>
+<td>0 – ACT</td>
+<td> </td>
+</tr>
+<tr>
+<td>J – AGT</td>
+<td>U – CTG</td>
+<td>1 – ACC</td>
+<td> </td>
+</tr>
+<tr>
+<td>K – AAG</td>
+<td>V – CCT</td>
+<td>2 – TAG</td>
+<td> </td>
+</tr>
+</tbody></table>
+<p><b>Tabel 2 Tabel de conversie ADN</b></p>
+<p>De menționat este faptul că  prelucrările se fac doar pe minuscule, majusculele fiind introduse în tabel doar pentru o mai bună evidențiere a transformărilor.</p>
+<p>Textul secret, acum tradus în limbaj ADN urmează să fie supus unei operații SAU-EXCLUSIV cu o cheie unică, și aceasta fiind formată dintr-o succesiune aleatoare de litere ale alfabetului ADN (a, c, g, t).</p>
+<p>Decriptarea presupune o nouă operație SAU-EXCLUSIV între textul criptat și cheia secretă pe care doar destinatarul o are și o reconversie din limbaj ADN în limbajul în care a fost scris textul inițial.</p>
+<p>Evoluția domeniului IT și necesitatea tot mai crescută a unor aplicații sigure conduc la apariția tot mai multor tehnici de garantare a securității. În prezent sunt folosite diverse modele clasice bazate preponderent pe algoritmi matematici complecși. Biotehnologiile, implicit metodele bazate pe informația ADN, reprezintă modele care pot constitui importante direcții în cercetare.</p>
+<p>Acest algoritm poate fi optimizat având în vedere următoarele:</p>
+<ul>
+<li>În urma unui studiu aprofundat al structurii ADN se poate modifica algoritmul astfel încât să existe un grad cât mai apropiat de maxim de asemănare între acest model și modelul ADN-ului uman.</li>
+<li>Obținerea unui certificat de la SUN/Oracle pentru a o putea integra în JCE și a o putea folosi sub orice sistem de operare (Distribuțiile noi de Linux au integrat OpenJDK, neexistând o versiune care se poate folosi sub Windows).</li>
+<li>Folosirea acestui algoritm în cazul aplicațiilor medicale ce trebuie să asigure confidențialitate, respectiv în cazul schimbului de informații între medici și între medici și pacienți.</li>
+</ul>
+<p>Odata cu dezvoltarea tehnologiilor, inclusiv a celor mobile, tari care erau relativ ramase in urma in ceea ce priveste cercetarea in domeniul securitatii investesc fonduri din ce in ce mai mari pentru a oferi produse sigure pe piata.</p>
+<p>Uniunea Europeana are o strategie prin care impune ca toate produsele software dezvoltate pe piata comuna sa respecte standarde de securitate stabilite prin norme obligatorii.</p>
+<h3 class="western">Bibliografie</h3>
+<ol>
+<li>T. Băjenescu, M. Borda. <i>Securitatea în informatică și telecomunicații. </i>Cluj-Napoca : Dacia, 2001.</li>
+<li>DotNetSlackers. An inside look at Symmetric Encryption. <i>DotNetSlackers. </i><a href="http://dotnetslackers.com/articles/security/AnInsideLookAtSymmetricEncryption.aspx">http://dotnetslackers.com/articles/security/AnInsideLookAtSymmetricEncryption.aspx</a>.</li>
+<li>Lucks, Stefan. <i>Attacking Triple Encryption.</i> London : Springer-Verlag, 1998, Lecture Notes In Computer Science, Vol. 1372.</li>
+<li>NIST. Specification for the Advanced Encryption Standart. <i>Computer Security Resource Center. </i><a href="http://www.csrc.nist.gov/publications/fips/fips197/fips-197.pdf">http://www.csrc.nist.gov/publications/fips/fips197/fips-197.pdf</a>.</li>
+<li>
+<i>Description of a New Variable-Length Key, 64-Bit Block Cipher (Blowfish). </i>Schneier, Bruce. s.l. : Springer-Verlag, 1994, Fast Software Encryption, Cambridge Security Workshop Proceedings (December 1993).</li>
+<li>Savard, John. IDEA (International Data Encryption Algorithm). [Interactiv] <a href="http://www.quadibloc.com/crypto/co040302.htm">http://www.quadibloc.com/crypto/co040302.htm</a>.</li>
+<li>
+<i>Genetics Home Reference. </i>[Interactiv] U.S. National Library of Medicine. <a href="http://ghr.nlm.nih.gov/handbook/basics/dna">http://ghr.nlm.nih.gov/handbook/basics/dna</a>.</li>
+<li>Tatiana Hodorogea, Mircea-Florin Vaida, BLOOD ANALYSIS AS BIOMETRIC SELECTION OF PUBLIC KEYS, 7 th International Carpathian Control Conference ICCC’2006, Ostrava – Beskydy, Czech Republic, May 29-31, 2006, pp. 675-678</li>
+<li>How to Implement a Provider for the JavaTM Cryptography Extension. <i>Sun Microsystems. </i><a href="http://java.sun.com/j2se/1.4.2/docs/guide/security/jce/HowToImplAJCEProvider.html">http://java.sun.com/j2se/1.4.2/docs/guide/security/jce/HowToImplAJCEProvider.html</a>.</li>
+<li>Microsystems, Sun. Developer Resources for Java Technology. <i>Certification Form for CSPs.</i><a href="http://java.sun.com/j2se/1.4.2/docs/guide/security/jce/CertForm.txt"> http://java.sun.com/j2se/1.4.2/docs/guide/security/jce/CertForm.txt</a>.</li>
+<li>A Brief History of Cryptography. <i>Cypher Research Laboratories Pty. Ltd.</i><a href="http://www.cypher.com.au/crypto_history.htm"> http://www.cypher.com.au/crypto_history.htm</a>.</li>
+<li>Java Cryptography Architecture. [Interactiv] Sun Microsystems. <a href="http://java.sun.com/j2se/1.4.2/docs/guide/security/CryptoSpec.html">http://java.sun.com/j2se/1.4.2/docs/guide/security/CryptoSpec.html</a>.</li>
+<li>Andreica, Alina. Internet Teorie. <i>Facultatea de Studii Europene, Universitatea Babes-Bolyai Cluj-Napoca. </i><a href="http://www.euro.ubbcluj.ro/~alina/cursuri/internet-teorie/">http://www.euro.ubbcluj.ro/~alina/cursuri/internet-teorie/</a>.</li>
+<li>Ashish Gehani, Thomas LaBean, John Reif. <i>DNA-Based Cryptography. </i> s.l. : DIMACS Series in Discrete Mathematics and Theoretical Computer Science, 1999, Vol. 54.</li>
+<li>DNA Alphabet. <i>VSNS BioComputing Division. </i><a href="http://www.techfak.uni-bielefeld.de/bcd/Curric/PrwAli/node7.html#SECTION00071000000000000000">http://www.techfak.uni-bielefeld.de/bcd/Curric/PrwAli/node7.html#SECTION00071000000000000000</a>.</li>
+<li>Hook, David. <i>Beginning Cryptography with Java. </i>s.l. : Wrox Press, 2005.</li>
+<li>Knudsen, Jonathan B. <i>Java Cryptography. </i>s.l. : O’Reilly, 1998.</li>
+<li>Wagner, Neal R. <i>The Laws of Cryptography with Java Code. </i>[PDF] 2003.</li>
+<li>Web Architecture. [Interactiv] School of Information, UC Berkeley. <a href="http://dret.net/lectures/web-fall08/">http://dret.net/lectures/web-fall08/</a>.</li>
+<li>Cloud Garden – Jigloo GUI Builder. <i>Cloud Garden (Java Resources), </i>Cloud Garden. <a href="http://www.cloudgarden.com/jigloo/">http://www.cloudgarden.com/jigloo/</a>.</li>
+<li>Konheim, Alan G. <i>Computer Security and Cryptography. </i>New Jersey: John Wiley &amp; Sons, Inc., 2007.</li>
+<li>Hodorogea Tatiana, Vaida Mircea-Florin, COMPLEXITY OF DNA ENCRYPTION SYSTEM AS A SUBSET OF JAVA CRYPTOGRAPHY EXTENSION, IASTED International Conference on Biomedical Engineering (BioMed 2008), 13-15 Feb., Innsbruck, Austria, paper  601-167, pp. 19-24</li>
+<li>Mircea-F. Vaida, Alexandra Vanea, Radu Terec, Raport tehnic privind Securitatea alternativa folosind mediul Java, RTH 09005, septembrie 2009, Laborator Helios, Director Mircea-Florin Vaida, Univ. Tehnica din Cluj-Napoca, ISSN: 1453-875X, pp. 82, ISSN 1454-0665</li>
+<li>Olga Tornea, Monica Borda, Tatiana Hodorogea, Mircea-Florin Vaida, ENCRYPTION SYSTEM WITH INDEXING DNA CHROMOSOMES CRYPTOGRAPHIC ALGORITHM, IASTED International Conference on Biomedical Engineering (BioMed 2010), 15-18 Feb., Innsbruck, Austria, paper  680-099, pp. 12-15</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+        </div>
+
+	  <hr>
+      </div>
+    </section>
+    <!-- End our team Section-->
+
+    <!-- Start  page-footer Section-->
+    <footer class="page-footer dark-color-footer" id="page-footer" style="min-height: 350px !important; height: 350px;">
+      <div class="overlay-photo-image-bg" data-bg-img="../../../assets/images/sections-bg-images/footer-bg-1.jpg" data-bg-opacity=".25"></div>
+      <div class="container">
+        <div class="row footer-cols">
+          <div class="col-12 col-md-8 col-lg-4  footer-col "><img class="img-fluid footer-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots2.png" alt="logo"/>
+            <div class="footer-col-content-wrapper">
+              <p class="footer-text-about-us "> The iTransfer mission is to stimulate innovation and technology transfer in order to capitalize on research results by introducing them into the economic circuit in the form of innovative products and services.   </p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2  footer-col ">
+            <h2 class=" footer-col-title    ">useful links</h2>
+            <div class="footer-col-content-wrapper">
+              <ul class="footer-menu ">
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../contact-us.html">Contact Us</a> </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../information.html">Information</a> </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../team.html">Team</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 footer-col "> </div>
+          <div class="col-12     col-lg-4 footer-col ">
+            <h2 class=" footer-col-title    ">contact information</h2>
+            <div class="footer-col-content-wrapper">
+              <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" href="mailto:itransferspace@gmail.com">itransferspace@gmail.com</a></div>
+              <div class="contact-info-card">
+                <div class="social-icons">
+                  <div class="sc-wrapper dir-row sc-size-32">
+                    <ul class="sc-list">
+                      <li class="sc-item " title="Facebook"><a class="sc-link" href="https://www.facebook.com/cttitransfer/?_rdc=1&_rdr" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                      <li class="sc-item " title="youtube"><a class="sc-link" href="https://www.youtube.com/@adsfii6229/videos" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                      <li class="sc-item " title="linkedin"><a class="sc-link" href="http://www.linkedin.com/company/centru-de-transfer-tehnologic-itransfer" title="social media icon"><i class="fab fa-linkedin sc-icon"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights ">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-start">
+              <p class="creadits"> 2017 - 2026 © iTransfer </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  page-footer Section-->
+    <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div>
+    <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i></div>
+
+        <!--     JQuery     -->
+        <script src="../../../js/vendors/jquery-3.6.1.min.js"></script>
+        <script src="../../../js/vendors/appear.min.js"></script>
+        <script src="../../../js/vendors/bootstrap.bundle.min.js"></script>
+        <script src="../../../js/vendors/jquery.countTo.js"></script>
+        <script src="../../../js/vendors/wow.min.js"></script>
+        <script src="../../../js/vendors/swiper-bundle.min.js"></script>
+        <script src="../../../js/vendors/particles.min.js"></script>
+        <script src="../../../js/vendors/vanilla-tilt.min.js"></script>
+        <script src="../../../js/vendors/isotope-min.js"></script>
+        <script src="../../../js/vendors/jquery.fancybox.min.js"></script>
+        <script src="../../../js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IT Solutions &amp; Business Services Responsive HTML5 Bootstrap5 Website Template">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- fav icon -->
+        <link rel="icon" href="../../../assets/images/fav-icon/iTransfer-fav-icon.png">
+
+        <!-- bootstarp -->
+        <link rel="stylesheet" href="../../../css/vendors/bootstrap.min.css">
+
+        <!-- animate.css file -->
+        <link rel="stylesheet" href="../../../css/vendors/animate.css">
+
+        <!-- Swiper -->
+        <link rel="stylesheet" href="../../../css/vendors/swiper-bundle.min.css">
+
+        <!-- flaticon -->
+        <link rel="stylesheet" href="../../../css/vendors/flaticon/flaticon.css">
+
+        <!-- fontAwesome -->
+        <link rel="stylesheet" href="../../../css/vendors/all.min.css">
+
+        <!-- bootstrap icons -->
+        <link rel="stylesheet" href="../../../css/vendors/bootstrap-icons-1.9.1/bootstrap-icons.css">
+
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="../../../css/vendors/jquery.fancybox.min.css">
+
+        <!-- fonts site preconnect -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <!-- fonts site preconnect -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Font Family -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&amp;display=swap">
+
+        <!-- main-LTR -->
+        <link rel="stylesheet" href="../../../css/main-LTR.css">
+        <title>iTransfer | Folosirea re?elelor neuronale în clasificarea de imagini - iTransfer</title>
+
+        <style>
+          .article-content-wrapper img.custom-article-img {
+              display: block !important;
+              margin: 30px auto 10px auto !important;
+              max-width: 85% !important;
+              height: auto !important;
+              border-radius: 4px;
+          }
+          .article-content-wrapper figcaption,
+          .article-content-wrapper .wp-caption-text,
+          .article-content-wrapper .img-caption {
+              text-align: center !important;
+              font-style: italic !important;
+              margin-bottom: 30px;
+              color: #a0a0a0;
+              display: block;
+              font-size: 14px;
+          }
+        </style>
+  </head>
+  <body class=" dark-theme ">
+    <!--Start Page Header-->
+    <header class=" page-header   header-basic" id="page-header">
+      <div class="header-search-box">
+        <div class="close-search"></div>
+        <form class="nav-search search-form" role="search" method="get" action="#">
+          <div class="search-wrapper">
+            <label class="search-lbl">Search for:</label>
+            <input class="search-input" type="search" placeholder="Search..." name="searchInput" autofocus="autofocus"/>
+            <button class="search-btn" type="submit"><i class="bi bi-search icon"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <nav class="menu-navbar">
+          <div class="header-logo"><a class="logo-link" href="https://www.uaic.ro/"><img class="logo-img light-logo" loading="lazy" src="../../../assets/images/logo/uaic.png" style="height:40px;margin-right:40px;" alt="logo"/><img class="logo-img  dark-logo" loading="lazy" src="../../../assets/images/logo/uaic.png" style="height:40px;margin-right:40px;" alt="logo"/></a></div>
+          <div class="header-logo"><a class="logo-link" href="../../index.html"><img class="logo-img light-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots.png" style="height:40px;" alt="logo"/><img class="logo-img  dark-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots.png" style="height:40px;" alt="logo"/></a></div>
+          <div class="links menu-wrapper ">
+            <ul class="list-../js links-list">
+              <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../index.html">Home</a></li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">About<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../mission.html">Mission</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../team.html">Team</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../collaboration.html">Collaboration</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Academy<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../university-consortium.html">University consortium</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../academic-expertise.html">Academic expertise</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../interdisciplinarity.html">Interdisciplinarity</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Activities and services<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../information.html">Information</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../events.html">Events</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../cursuri.html">Our Courses</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../funding-opportunities.html">Funding Oportunities</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../entrepreneurship.html">Entrepreneurship</a></li>
+                </ul>
+              </li>
+              <li class="menu-item has-sub-menu"><a class="menu-link  " href="#0">Results<i class="fas fa-plus  plus-icon"> </i></a>
+                <ul class="sub-menu ">
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../products.html">Products</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../prototypes.html">Prototypes</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../knowledge-transfer.html">Knowledge transfer</a></li>
+                  <li class="menu-item sub-menu-item"><a class="menu-link sub-menu-link  " href="../../projects.html">Projects</a></li>
+                </ul>
+              </li>
+              <li class="menu-item"><a class="menu-link  " href="../../contact-us.html">contact us </a></li>
+            </ul>
+          </div>
+          <div class="controls-box">
+            <!--Menu Toggler button-->
+            <div class="control  menu-toggler"><span></span><span></span><span></span></div>
+            <!--search Icon button-->
+            <div class="control header-search-btn"><i class="bi bi-search icon"></i></div>
+            <!--Dark/Light mode button-->
+            <div class="mode-switcher ">
+              <div class="switch-inner go-light " title="Switch To Light Mode "><i class="bi bi-sun icon "></i></div>
+              <div class="switch-inner go-dark" title="Switch To Dark Mode "><i class="bi bi-moon icon "></i></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--End Page Header-->
+
+    <!-- Start inner Page hero-->
+    <section class="d-flex align-items-center page-hero inner-page-hero" id="page-hero" style="min-height: 350px !important; height: 350px;">
+      <div class="overlay-photo-image-bg parallax" data-bg-img="../../../assets/images/hero/inner-page-hero.jpg" data-bg-opacity="1"></div>
+      <div class="overlay-color" data-bg-opacity=".75"></div>
+      <div class="container" style="margin-top:45px;">
+        <div class="hero-text-area centerd">
+          <h1 class="hero-title wow fadeInUp" data-wow-delay=".2s">Folosirea re?elelor neuronale în clasificarea de imagini - iTransfer</h1>
+        </div>
+      </div>
+    </section>
+    <!-- End inner Page hero-->
+
+    <!-- Start our team Section-->
+    <section class="our-team mega-section " id="our-team">
+      <div class="container">
+        <div class="sec-heading  ">
+          <div class="content-area">
+            <h2 class=" title    wow fadeInUp" data-wow-delay=".4s"></h2>
+          </div>
+        </div>
+
+        <div class="article-content-wrapper">
+            <div class="entry-content default-page">
+<div class="elementor elementor-23036" data-elementor-id="23036" data-elementor-settings="[]" data-elementor-type="wp-post">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-ca74fdb elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="ca74fdb" data-settings='{"stretch_section":"section-stretched"}'>
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="has_eae_slider elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-be09003" data-element_type="column" data-id="be09003">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-e660331 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="e660331" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><p><em>Data publicării: 01.02.2019</em><br/><em>Autor articol: Adrian Iftene</em></p></div>
+</div>
+</div>
+<div class="elementor-element elementor-element-acb365b elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="acb365b" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">
+<h1>Introducere</h1>
+<p>În zilele noastre, sistemele de supraveghere contribuie în mod vital la securitatea publică. Dezvoltarea pronunțată a domeniului inteligenței artificiale, în special inteligența artificială pentru procesarea de imagini (Baidyk et al., 2016) (vezi Figura 1 de mai jos oferită de cei de la G2Crowd), a facilitat analizarea videoclipurilor și a imaginilor preluate de camerele de supraveghere (Kardas și Cicekli, 2017) și (Zhang et al., 2017).</p>
+<p>O primă problemă care apare în mai multe studii recente a fost problema detectării evenimentelor în supravegherea video (Cosar et al., 2017), care necesită abilitatea de a identifica și localiza modelele spațio-temporale specifice. În lucrarea (Guo et al., 2008) este tratată această problemă și sunt propuse soluții pe baza monitorizării unei persoane și a acțiunilor întreprinse de aceasta (vezi Figura 2).</p>
+<figure aria-describedby="caption-attachment-23038" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="283" src="Page-2-Image-1-2.jpg" width="534"/><figcaption class="wp-caption-text">Figura 1: Domenii ale inteligenței artificiale în viziunea celor de la G2Crowd</figcaption></figure><figure aria-describedby="caption-attachment-23039" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="405" src="Page-2-Image-2-2.jpg" width="538"/><figcaption class="wp-caption-text">Figura 2: Detectarea de evenimente este folosită în primul rând în aeroporturi</figcaption></figure><p>O altă problemă actuală din analiza imaginilor video, care stârnește un mare interes în cercetare, este problema de re-identificare a unei persoanei (Ahmed et al., 2015). Re-identificarea unei persoane este o problemă practică prin care se dorește identificarea aceleiași persoane în mai multe imagini, care au fost realizate fie cu mai multe camere, fie cu o singură cameră (vezi Figura 3). Re-identificarea este o funcție vitală pentru sistemele de supraveghere, precum și pentru sistemele de interacțiune om-calculator, pentru a facilita căutarea identității unei persoane în cantități mari de videoclipuri și imagini (vezi Figura 4).</p>
+<figure aria-describedby="caption-attachment-23040" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="300" src="Page-3-Image-3-3.jpg" width="671"/><figcaption class="wp-caption-text">Figura 3: Re-identificarea unei persoane</figcaption></figure><figure aria-describedby="caption-attachment-23041" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="131" src="Page-3-Image-4.jpg" width="671"/><figcaption class="wp-caption-text">Figura 4: Căutarea identității unei persoane</figcaption></figure><p>În mai multe situații, identificarea rasei unei persoane poate fi utilă pentru sistemele de supraveghere. Identificarea rasei unei persoane se face în primul rând pe baza procesării feței (Fu et al., 2014) (vezi Figura 5), dar se folosesc și alte caracteristici pentru a îmbunătăți calitatea unui astfel de sistem: caracteristici ce țin de aspect, regiuni discriminatorii locale, combinarea informațiilor 2D și 3D, caracterisitic ce țin de mers, vorbit sau gestică, etc. (vezi Figura 6).</p>
+<figure aria-describedby="caption-attachment-23048" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="338" src="Page-4-Image-51.jpg" width="671"/><figcaption class="wp-caption-text">Figura 5: Identificarea rasei unei persoane pe baza procesării imaginii cu fața acesteia</figcaption></figure><figure aria-describedby="caption-attachment-23049" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="344" src="Page-4-Image-6.jpg" width="671"/><figcaption class="wp-caption-text">Figura 6: Identificarea unei persoane pe baza caracterisiticilor 2D și 3D</figcaption></figure><p>În ultimii ani, mulți cercetători au trecut de la recunoașterea rasei pentru  grupurile de rasă populare, cum ar fi afro-americani, caucazieni și asiatici, la grupurile sub-etnice cum ar fi coreenii, japonezii, chinezii și vietnamezii (Bastanfard et al., 2007), (Gao et al., 2008), (Roh și Lee, 2007) și (Vo et al., 2018).</p>
+<p>În ultimii ani, rețelele sociale au devenit populare cu miliarde de utilizatori din întreaga lume, cu milioane de informații partajate zilnic. Aceste rețele sociale folosesc algoritmi de procesare a imaginilor, care permit identificarea persoanelor, care se află în bazele lor de date (vezi Figura 7 de mai jos). În 2016, în lucrarea (Farnadi et al., 2016) autorii au oferit o analiză detaliată a diferitelor metode de ultimă oră pentru recunoașterea personalității în numeroase seturi de date de pe Facebook, Twitter și YouTube.</p>
+<figure aria-describedby="caption-attachment-23050" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="435" src="Page-5-Image-7.jpg" width="580"/><figcaption class="wp-caption-text">Figura 7: Algoritmii de la Facebook, Twitter, Google Plus recunosc persoane din imagini</figcaption></figure><p>Detectarea emoțiilor în imagini este o altă direcție actuală de cercetare unde se dorește îmbunătățirea calității interacțiunii dintre un utilizator și o aplicație (Bardhan et al., 2018). Se consideră că emoțiile sunt efectul prezenței unui stimul în subiectul monitorizat și se dorește adaptarea interacțiunii în funcție de aceste observații (Figura 8 prezintă tipurile de emoții recunoscute prin procesarea de imagini).</p>
+<figure aria-describedby="caption-attachment-23051" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="387" src="Page-6-Image-8.jpg" width="408"/><figcaption class="wp-caption-text">Figura 8: Categorii de emoții umane</figcaption></figure><h1>Rețele neuronale în Computer Vision</h1>
+<p>În ultimii ani, rețelele neuronale profunde au fost utilizate din ce în ce mai des în Computer vision, în special datorită performanțelor lor promițătoare. Pentru problema clasificării imaginilor, în (Zhang et al., 2016) autorii au propus o metodă nouă de învățare a caracteristicilor pentru clasificarea imaginilor, cu performanțe foarte bune. În (Wei et al., 2016), autorii au propus un model bazat pe o rețea neuronală flexibilă, pentru clasificarea imaginilor folosind mai multe etichete. În Figura 9 putem vedea cum putem decide cu o rețea neuronală adâncă dacă într-o imagine avem o pisică sau un cățel.</p>
+<figure aria-describedby="caption-attachment-23052" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="336" src="Page-7-Image-9-2.jpg" width="567"/><figcaption class="wp-caption-text">Figura 9: Arhitectura unei rețele neuronale adânci folosite în clasificarea unei imagini</figcaption></figure><p>În aplicațiile legate de identificarea feței există mai multe tipuri de abordări, cum ar fi detectarea feței (Li et al., 2015), alinierea feței (Parka et al., 2017), analiza expresiei feței (Chen et al, 2017), etc. În 2015, în (Li et al., 2015) autorii au propus un model în cascadă construit pe o rețea neuronală cu o capacitate discriminantă foarte puternică, menținând în același timp performanțe ridicate pentru a rezolva problemele datorate poziției, expresiei și iluminării, în detectarea feței în lumea reală. Analiza expresiei feței ar putea fi aplicată în multe alte probleme cum ar fi evaluarea medicală, detectarea minciunilor, interfața om-calculator, robotică, etc. În articolul (Dao, 2018) se arată care sunt avantajele și dezavantajele folosirii tehnologiilor de identificare a feței (vezi Figura 10 de mai jos).</p>
+<figure aria-describedby="caption-attachment-23053" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="388" src="Page-8-Image-10-2.jpg" width="671"/><figcaption class="wp-caption-text">Figura 10: Detectarea feței</figcaption></figure><p>În analiza video, problema re-identificării persoanei este una importantă. În 2015, în (Ahmed et al., 2015) autorii au propus o metodă de învățare în paralel și o metrică de similitudine corespunzătoare pentru re-identificarea persoanei. Autorii prezintă, de asemenea, un model convoluțional profund cu straturi special conceput pentru a aborda problema re-identificării. Un astfel de sistem folosește date de antrenament care sunt procesate cu ajutorul rețelelor construite, construindu-se un model pe baza lor. Mai apoi cu ajutorul acestui model se face clasificarea datelor de test (vezi Figura 11).</p>
+<figure aria-describedby="caption-attachment-23054" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="428" src="Page-9-Image-11.jpg" width="671"/><figcaption class="wp-caption-text">Figura 11: Folosind informațiile din datele de antrenament se găsește o persoană în datele de test</figcaption></figure><p>O altă problemă în analiza video este urmărirea unei ținte vizuale, care are o gamă largă de aplicații, cum ar fi în navigația vehiculelor, în realitatea augmentată, în supravegherea video, etc. În Figura 12 este un exemplu din aplicația celor de la Stanford, Online Multi-Object Tracking (MOT).</p>
+<figure aria-describedby="caption-attachment-23055" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="344" src="Page-10-Image-12.jpg" width="671"/><figcaption class="wp-caption-text">Figura 12: Monitorizarea subiecților se face în timp real cu MOT</figcaption></figure><p>Recunoașterea activității umane este o altă problemă în analiza video, care a atras atenție în ultimii ani. În (Ronao și Cho, 2016), autorii au propus o rețea eficientă pentru recunoașterea activității umane folosind senzorii de la telefoanele inteligente. Abordarea lui D’Almeida care folosește deep learning pentru a recunoaște activitățile umane este prezentată pe scurt în arhitectura din Figura 13 de mai jos (D’Almeida, 2018).</p>
+<figure aria-describedby="caption-attachment-23056" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="268" src="Page-10-Image-13.jpg" width="647"/><figcaption class="wp-caption-text">Figura 13: Recunoașterea activităților umane folosind Deep Learning</figcaption></figure><h1>Transferul învățării</h1>
+<p>VGG este un model de rețea neuronală convoluțională propus în (Simonyan și Zisserman, 2015), care atinge 92,7% precizie în ImageNet (Deng et al., 2009), un set de date de peste 14 milioane de imagini aparținând a 1000 de clase. Modelul VGG instruit are două forme diferite – VGG-16 și VGG-19 – structura și parametrii acestora fiind disponibili gratuit online (în Figura 14 avem macro-arhitectura lui VGG-16). În (Hoo-Chang et al., 2016), autorii au studiat aplicarea modelelor VGG precomprimate la problemele de detectare asistate de calculator și au obținut rezultate promițătoare.</p>
+<figure aria-describedby="caption-attachment-23057" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="276" src="Page-11-Image-14.jpg" width="470"/><figcaption class="wp-caption-text">Figura 14: Macro-arhitectura lui VGG-16</figcaption></figure><p>VGG-16 constă din 13 straturi convoluționale și trei straturi complet conectate. În acest model, filtre mai mari (de exemplu, 5 X 5) sunt construite din mai multe filtre mai mici (de exemplu, 3 X 3) (vezi Figura 15). Prin urmare, toate straturile convoluționale au aceeași dimensiune filtru de 3 X 3. În total, VGG-16 necesită 138 M de ponderi. Modelul VGG a fost utilizat în multe studii până acum (He et al., 2016), (Li et al., 2016), (Yang et al., 2016).</p>
+<figure aria-describedby="caption-attachment-23059" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="165" src="Page-12-Image-15.jpg" width="596"/><figcaption class="wp-caption-text">Figura 15: Decompoziția în VGG-16</figcaption></figure><p>În lucrarea (Vo et al., 2018), autorii și-au propus să identifice fețe vietnameze. Pentru a efectua experimentul, ei au colectat informații despre utilizatori de diferite vârste și rase de pe Facebook, inclusiv imagini. Aceste conturi de pe Facebook au o varietate de imagini, cu posturi, accesorii, iluminări și condiții de preluare a acestora diferite. Figura 16 prezintă eșantioane de fețe vietnameze (în stânga) și altele (în dreapta).</p>
+<figure aria-describedby="caption-attachment-23060" class="wp-caption aligncenter"><img alt="" class="img-fluid custom-article-img" decoding="async" height="331" src="Page-12-Image-16.jpg" width="667"/><figcaption class="wp-caption-text">Figura 16: Eșantioane de fețe vietnameze (în stânga) și altele (în dreapta)</figcaption></figure><p>Rezultatele experimentale din acest studiu au arătat că cea mai bună precizie a fost de 88,87%. În alte cazuri examinate, modelele propuse au obținut, de asemenea, o mare precizie în clasificarea altor seturi de date cu alte rase, precum japoneză, chineză și braziliană.</p>
+<h1>Concluzii</h1>
+<p>Rețelele neuronale au fost folosite cu succes în clasificarea imaginilor și a cerințelor specifice din această arie a inteligenței artificiale: identificarea feței, identificarea și re-identificarea unei persoane, identificarea sentimentelor, detectarea evenimentelor, identificarea rasei, urmărirea unei ținte vizuale, recunoașterea activității umane, etc.</p>
+<p>Pe lângă utilitatea principală a acestor sisteme și tehnici în cadrul sistemelor de supraveghere, au început să fie folosite în cadrul aplicațiilor de diagnoză medicală (pentru a identifica afecțiuni ale pacienților), în cadrul aplicațiilor ce presupun interacțiunea cu un utilizator (pentru a evalua gradul de mulțumire al celui ce folosește o anumită aplicație) sau în cadrul aplicațiilor ce permit căutarea de persoane (în colecții mari de video-clipuri sau de imagini).</p>
+<h1>Referințe bibliografice</h1>
+<ul>
+<li>Ahmed, E., Jones, M. J., Marks, T. K. (2015) <i>An improved deep learning architecture for person re-identification</i>. In Proceedings of the 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, USA, 7–12 June 2015, pp. 3908–3916.</li>
+<li>Baidyk, T., Kussul, E. M., Monterrosas, Z. C., Gallardo, A. J. I., Serrato, K. L. R., Conde, C., Serrano, A., Diego, I. M., Cabello, E. (2016) <i>Face recognition using a permutation coding neural classifier</i>. Neural Comput. Appl. 27, pp. 973–987.</li>
+<li>Bardhan, Y., Fulzele, T. A., Ranjan, P., Upadhyay, S., Bharate, V. D. (2018) Emotion Recognition using Image Processing. Published in International Journal of Trend in Scientific Research and Development (ijtsrd), ISSN: 2456-6470, Volume-2, Issue-3 , April 2018.</li>
+<li>Bastanfard, A., Nik, M. A., Dehshibi, M. M. (2007) <i>Iranian face database with age, pose and expression</i>. In Proceedings of the 2007 International Conference on Machine Vision, Islamabad, Pakistan, 28–29 December 2007, pp. 50–58.</li>
+<li>Chen, J., Ou, Q., Chi, Z., Fu, H. (2017) <i>Smile detection in the wild with deep convolutional neural networks</i>. Mach. Vis. Appl. 28, pp. 173-183.</li>
+<li>Cosar, S., Donatiello, G., Bogorny, V., Gárate, C., Alvares, L. O., Brémond, F. (2017) <i>Toward abnormal trajectory and event detection in video surveillance</i>. IEEE Trans. Circuits Syst. Video Technol, 27, pp. 683-695.</li>
+<li>D’Almeida, W. (2018) <i>Deep learning for sensor-based human activity recognition</i>. Becoming Human. Exploring Artificial Intelligence &amp; What it Means to be Human. <a href="http://becominghuman.ai/deep-learning-for-sensor-based-human-activity-recognition-970ff47c6b6b">http://becominghuman.ai/deep-learning-for-sensor-based-human-activity-recognition-970ff47c6b6b</a>
+</li>
+<li>Dao, D. Q. (2018) <i>5 Pros and Cons of Face Recognition Technology</i>. TechFunnel. Information Technology. <a href="http://www.techfunnel.com/information-technology/5-pros-and-cons-of-face-recognition-technology/">http://www.techfunnel.com/information-technology/5-pros-and-cons-of- face -recognition-technology/</a>
+</li>
+<li>Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., Fei-Fei, L. (2009) <i>Imagenet: A large-scale hierarchical image database</i>. In Proceedings of the 2009 IEEE Conference on Computer Vision and Pattern Recognition, Miami, FL, USA, 20-25 June 2009, pp. 248-255.</li>
+<li>Farnadi, G., Sitaraman, G., Sushmita, S., Celli, F., Kosinski, M., Stillwell, D., Davalos, S., Moens, M. F., Cock, M. D. (2016) <i>Computational personality recognition in social media.</i> User Model. User-Adapt. Interact. 26, pp. 109-142.</li>
+<li>Fu, S., He, H., Hou, Z. G.  (2014) <i>Learning Race from face: A survey</i>. IEEE Trans. Pattern Anal. Mach. Intell. 36, pp. 2483-2509.</li>
+<li>Gao,W., Cao, B., Shan, S. G., Chen, X. L., Zhou, D. L., Zhang, X. H., Zhao, D. B. (2008) <i>The CAS-PEAL large-scale Chinese face database and baseline evaluations</i>. IEEE Trans. Syst. Man Cybern. Part A Syst. Hum. 38, pp. 149–161.</li>
+<li>Guo, J., Liu, A., Song, Y., Chen, Z., Pang, L., Xie, H., Zhang, L. (2008) <i>TRECVID 2008 Event Detection By MCG-ICT-CAS</i>. In Proc. TRECVID Workshop 08.</li>
+<li>He, K., Wang, Y., Hopcroft, J. E. (2016) <i>A powerful generative model using random weights for the deep image representation</i>. In Proceedings of the 30th Conference on Neural Information Processing Systems (NIPS), Barcelona, Spain, 5-11 December 2016, pp. 631-639.</li>
+<li>Hoo-Chang, S., Roth, H. R., Gao, M., Lu, L., Xu, Z., Nogues, I., Yao, J., Mollura, D., Summers, R. M. (2016) <i>Deep convolutional neural networks for computer-aided detection: CNN architectures, dataset characteristics and transfer learning</i>. IEEE Trans. Med. Imaging 2016, 35, pp. 285-1298.</li>
+<li>Kardas, K., Cicekli, N. K. (2017) <i>SVAS: Surveillance Video Analysis System</i>. Expert Syst. Appl. 89, pp. 343-361.</li>
+<li>Li, H., Lin, Z., Shen, X., Brandt, J., Hua, G. (2015) <i>A convolutional neural network cascade for face detection</i>. In Proceedings of the 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, USA, 7-12 June 2015; pp. 5325-5334.</li>
+<li>Li, X., Zhao, L., Wei, L., Yang, M. H., Wu, F., Zhuang, Y., Ling, H., Wang, J. (2016) <i>DeepSaliency: Multi-task deep neural network model for salient object detection</i>. IEEE Trans. Image Process. 25, pp. 3919-3930.</li>
+<li>Parka, B. H., Oha, S. Y., Kim, I. J. (2017) <i>Face alignment using a deep neural network with local feature learning and recurrent regression</i>. Expert Syst. Appl. 89, pp. 66-80.</li>
+<li>Roh, R. C., Lee, S. W. (2007) <i>Performance evaluation of face recognition algorithms on Korean face database</i>. Int. J. Pattern Recognit. Artif. Intell. 21, pp. 1017-1033.</li>
+<li>Ronao, C. A., Cho, S. B. (2016) <i>Human activity recognition with smartphone sensors using deep learning neural networks</i>. Expert Syst. Appl. 59, pp. 235-244.</li>
+<li>Simonyan, K., Zisserman, A. (2015) <i>Very deep convolutional networks for large-scale image recognition</i>. arXiv 2015, arXiv:1409.1556. Available online: <a href="http://arxiv.org/abs/1409.1556">http://arxiv.org/abs/1409.1556</a>
+</li>
+<li>Vo, T., Nguyen, T., Le, C. T. (2018) <i>Race Recognition Using Deep Convolutional Neural Networks</i>. Symmetry 10(11): 564.</li>
+<li>Wei, Y., Xia, W., Lin, M., Huang, J., Ni, B., Dong, J., Zhao, Y., Yan, S. (2016) <i>HCP: A flexible CNN framework for multi-label image classification</i>. IEEE Trans. Pattern Anal. Mach. Intell. 38, pp. 1901–1907.</li>
+<li>Yang, W., Ouyang, W., Li, H., Wang, X. (2016) <i>End-to-end learning of deformable mixture of parts and deep convolutional neural networks for human pose estimation</i>. In Proceedings of the 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Las Vegas, NV, USA, 27-30 June 2016, pp. 3073-3082.</li>
+<li>Zhang, Q., Chen, X., Zhan, Q., Yang, T., Xia, S. (2017) <i>Respiration-based emotion recognition with deep learning</i>. Comput. Ind. 92-93, pp. 84-90.</li>
+<li>Zhang, Y., Zhang, E., Chen, W. (2016) <i>Deep neural network for halftone image classification based on sparse auto-encoder</i>. Eng. Appl. Artif. Intell. 50, pp. 245–255.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+        </div>
+
+	  <hr>
+      </div>
+    </section>
+    <!-- End our team Section-->
+
+    <!-- Start  page-footer Section-->
+    <footer class="page-footer dark-color-footer" id="page-footer" style="min-height: 350px !important; height: 350px;">
+      <div class="overlay-photo-image-bg" data-bg-img="../../../assets/images/sections-bg-images/footer-bg-1.jpg" data-bg-opacity=".25"></div>
+      <div class="container">
+        <div class="row footer-cols">
+          <div class="col-12 col-md-8 col-lg-4  footer-col "><img class="img-fluid footer-logo" loading="lazy" src="../../../assets/images/logo/iTransfer-logo-big-size-white-dots2.png" alt="logo"/>
+            <div class="footer-col-content-wrapper">
+              <p class="footer-text-about-us "> The iTransfer mission is to stimulate innovation and technology transfer in order to capitalize on research results by introducing them into the economic circuit in the form of innovative products and services.   </p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2  footer-col ">
+            <h2 class=" footer-col-title    ">useful links</h2>
+            <div class="footer-col-content-wrapper">
+              <ul class="footer-menu ">
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../contact-us.html">Contact Us</a> </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../information.html">Information</a> </li>
+                <li class="footer-menu-item"><i class="bi bi-arrow-right icon "></i><a class="footer-menu-link" href="../../team.html">Team</a> </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2 footer-col "> </div>
+          <div class="col-12     col-lg-4 footer-col ">
+            <h2 class=" footer-col-title    ">contact information</h2>
+            <div class="footer-col-content-wrapper">
+              <div class="contact-info-card"><i class="bi bi-envelope icon"></i><a class="text-lowercase  info" href="mailto:itransferspace@gmail.com">itransferspace@gmail.com</a></div>
+              <div class="contact-info-card">
+                <div class="social-icons">
+                  <div class="sc-wrapper dir-row sc-size-32">
+                    <ul class="sc-list">
+                      <li class="sc-item " title="Facebook"><a class="sc-link" href="https://www.facebook.com/cttitransfer/?_rdc=1&_rdr" title="social media icon"><i class="fab fa-facebook-f sc-icon"></i></a></li>
+                      <li class="sc-item " title="youtube"><a class="sc-link" href="https://www.youtube.com/@adsfii6229/videos" title="social media icon"><i class="fab fa-youtube sc-icon"></i></a></li>
+                      <li class="sc-item " title="linkedin"><a class="sc-link" href="http://www.linkedin.com/company/centru-de-transfer-tehnologic-itransfer" title="social media icon"><i class="fab fa-linkedin sc-icon"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights ">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-start">
+              <p class="creadits"> 2017 - 2026 © iTransfer </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  page-footer Section-->
+    <div class="loading-screen" id="loading-screen"><span class="bar top-bar"></span><span class="bar down-bar"></span><span class="progress-line"></span><span class="loading-counter"> </span></div>
+    <div class="back-to-top" id="back-to-top"><i class="bi bi-arrow-up icon "></i></div>
+
+        <!--     JQuery     -->
+        <script src="../../../js/vendors/jquery-3.6.1.min.js"></script>
+        <script src="../../../js/vendors/appear.min.js"></script>
+        <script src="../../../js/vendors/bootstrap.bundle.min.js"></script>
+        <script src="../../../js/vendors/jquery.countTo.js"></script>
+        <script src="../../../js/vendors/wow.min.js"></script>
+        <script src="../../../js/vendors/swiper-bundle.min.js"></script>
+        <script src="../../../js/vendors/particles.min.js"></script>
+        <script src="../../../js/vendors/vanilla-tilt.min.js"></script>
+        <script src="../../../js/vendors/isotope-min.js"></script>
+        <script src="../../../js/vendors/jquery.fancybox.min.js"></script>
+        <script src="../../../js/main.js"></script>
+  </body>
+</html>
